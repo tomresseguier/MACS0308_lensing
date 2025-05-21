@@ -44,20 +44,24 @@
     const repo = 'tomresseguier/MACS0308_lensing';
     const branch = 'main';
     const apiUrl = `https://api.github.com/repos/${repo}/contents/`;
+    const hiddenFiles = ['.gitignore', '.gitattributes', 'index.html'];
     let historyStack = [];
 
     async function listFiles(path = '') {
       const response = await fetch(apiUrl + path);
+      const ul = document.getElementById('file-list');
+
       if (!response.ok) {
-        document.getElementById('file-list').innerHTML = `<li>Error loading files: ${response.status}</li>`;
+        ul.innerHTML = `<li>Error loading files: ${response.status}</li>`;
         return;
       }
 
       const files = await response.json();
-      const ul = document.getElementById('file-list');
       ul.innerHTML = '';
 
       files.forEach(file => {
+        if (hiddenFiles.includes(file.name)) return;
+
         const li = document.createElement('li');
         const link = document.createElement('a');
         link.textContent = file.name + (file.type === 'dir' ? '/' : '');
@@ -68,6 +72,7 @@
             e.preventDefault();
             historyStack.push(path);
             listFiles(file.path);
+            location.hash = file.path;
             document.getElementById('back-button').style.display = 'inline-block';
           });
         }
@@ -81,13 +86,24 @@
       if (historyStack.length > 0) {
         const previousPath = historyStack.pop();
         listFiles(previousPath);
+        location.hash = previousPath;
         if (historyStack.length === 0) {
           this.style.display = 'none';
         }
       }
     });
 
-    listFiles(); // initial call
+    // Load from hash on initial load
+    const initialPath = location.hash ? location.hash.slice(1) : '';
+    listFiles(initialPath);
+
+    // Listen for browser navigation (back/forward)
+    window.addEventListener('hashchange', () => {
+      const newPath = location.hash.slice(1);
+      historyStack = []; // reset stack on hash navigation
+      listFiles(newPath);
+      document.getElementById('back-button').style.display = newPath ? 'inline-block' : 'none';
+    });
   </script>
 </body>
 </html>
