@@ -1,33 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>MACS0308 Lensing Files</title>
+  <title>MACS0308 Lensing File Browser</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 24px;
     }
     ul {
       list-style-type: none;
       padding-left: 0;
     }
     li {
-      margin: 10px 0;
+      margin: 8px 0;
     }
     a {
-      text-decoration: none;
       color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back {
+      margin-top: 20px;
+      display: inline-block;
+      cursor: pointer;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>MACS0308 Lensing Files</h1>
-  <p>Click below to explore:</p>
-  <ul>
-    <li><a href="docs/">📄 Documents</a></li>
-    <li><a href="maps/">🗺️ Maps</a></li>
-    <li><a href="data/">📊 Data</a></li>
-  </ul>
+  <h1>MACS0308 Lensing File Browser</h1>
+  <ul id="file-list">Loading files...</ul>
+  <div class="back" id="back-button" style="display: none;">🔙 Go Back</div>
+
+  <script>
+    const repo = 'tomresseguier/MACS0308_lensing';
+    const branch = 'main';
+    const apiUrl = `https://api.github.com/repos/${repo}/contents/`;
+    let historyStack = [];
+
+    async function listFiles(path = '') {
+      const response = await fetch(apiUrl + path);
+      if (!response.ok) {
+        document.getElementById('file-list').innerHTML = `<li>Error loading files: ${response.status}</li>`;
+        return;
+      }
+
+      const files = await response.json();
+      const ul = document.getElementById('file-list');
+      ul.innerHTML = '';
+
+      files.forEach(file => {
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = file.name + (file.type === 'dir' ? '/' : '');
+        link.href = file.download_url || file.html_url;
+
+        if (file.type === 'dir') {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            historyStack.push(path);
+            listFiles(file.path);
+            document.getElementById('back-button').style.display = 'inline-block';
+          });
+        }
+
+        li.appendChild(link);
+        ul.appendChild(li);
+      });
+    }
+
+    document.getElementById('back-button').addEventListener('click', function() {
+      if (historyStack.length > 0) {
+        const previousPath = historyStack.pop();
+        listFiles(previousPath);
+        if (historyStack.length === 0) {
+          this.style.display = 'none';
+        }
+      }
+    });
+
+    listFiles(); // initial call
+  </script>
 </body>
 </html>
