@@ -1,0 +1,166 @@
+runmode
+	 reference 3 47.2332780 26.7604953
+	 inverse 3 0.5
+	 source 0
+	 mass 1 1000 0.556000 convergence.fits
+	 mass 4 1000 0.556000 mass.fits
+	 ampli 1 1000 3.0 magnification.fits
+	 shear 1 1000 3.0 shear.fits
+	 shearfield 1 25 1.0 shearfield.fits
+	 image 1 arclets_to_predict.lenstool
+	 verbose 1
+	 restart 1 42568
+	 end
+image
+	 multfile 1 MACS0308_mult_images.lenstool
+	 z_m_limit 0 1.1   3 1.270 0   0
+	 z_m_limit 1 B1a B2a B3a B4a  3 2.200 0.7 0
+	 z_m_limit 1 3.1   3 2.200 1.0 0
+	 z_m_limit 0 4.1   3 6.200 0   0
+	 z_m_limit 1 6.1   1 2.000 5.0 0.01
+	 z_m_limit 0 7.2a  0 3.390 0   0
+	 z_m_limit 1 8.1   3 3.040 0.2 0
+	 z_m_limit 0 10.1  3 3.380 0   0
+	 z_m_limit 1 K1a K2a 3 2.000 1.0 0
+#	 z_m_limit 1 12.1a 1 1.0   5.0 0.01
+#	 z_m_limit 1 13.1  1 1.0   9.0 0.01
+	 end
+grid
+	 nlens 151
+	 nlens_opt 5
+	 nlens_crit 151
+	 end
+potentiel P01
+	 profile 81
+	 x_centre 0.0
+	 y_centre 0.0
+	 z_lens 0.356
+	 ellipticite 0.0
+	 angle_pos 0.0
+	 core_radius_kpc 10
+	 cut_radius_kpc 1500
+	 v_disp 600
+	 identity P01
+	 end
+limit P01
+	 x_centre 3 0 10
+	 y_centre 3 0 10
+	 angle_pos 1 0.0 180
+	 ellipticite 1 0 0.7 #0.01
+	 core_radius_kpc 1 0 600
+	 cut_radius_kpc 0 1500 1500
+	 v_disp 1 400 3000
+	 end
+potentiel G01
+	 profile 81
+	 x_centre 0
+	 y_centre 0
+	 z_lens 0.356
+	 ellipticite 0
+	 angle_pos 0
+	 core_radius_kpc 0.5
+	 cut_radius_kpc 50
+	 v_disp 200
+	 identity G01
+	 end
+limit G01
+	 x_centre 0 0 0.5
+	 y_centre 0 0 0.5
+	 angle_pos 1 0.0 180
+	 ellipticite 1 0.0 0.7
+	 core_radius_kpc 1 0 25
+	 cut_radius_kpc 1 5 500
+	 v_disp 1 100 1000
+	end
+potentiel G02
+	 profile 81
+	 x_centre 1.69079
+	 y_centre -43.60788
+	 z_lens 0.356
+	 ellipticite 0
+	 angle_pos 0
+	 core_radius_kpc 0.5
+	 cut_radius_kpc 50
+	 v_disp 200
+	 identity G01
+	end
+limit G02
+	 x_centre 0 1.69079 0.5
+	 y_centre 0 -43.60788 0.5
+	 angle_pos 1 0.0 180
+	 ellipticite 1 0.0 0.7
+	 core_radius_kpc 1 0 25
+	 cut_radius_kpc 1 5 500
+	 v_disp 1 100 1000
+	end
+potentiel G03
+	 profile 81
+	 x_centre -10.31510
+	 y_centre -31.040280
+	 z_lens 0.356
+	 ellipticite 0
+	 angle_pos 0
+	 core_radius_kpc 0.5
+	 cut_radius_kpc 50
+	 v_disp 200
+	 identity G01
+	end
+limit G03
+	 x_centre 0 -10.31510 0.5
+	 y_centre 0 -31.040280 0.5
+	 angle_pos 1 0.0 180
+	 ellipticite 1 0.0 0.7
+	 core_radius_kpc 1 0 25
+	 cut_radius_kpc 1 5 500
+	 v_disp 1 100 1000
+	end
+potentiel G04
+	 profile 81
+	 x_centre -20.302323
+	 y_centre 23.79492
+	 z_lens 0.356
+	 ellipticite 0
+	 angle_pos 0
+	 core_radius_kpc 0.5
+	 cut_radius_kpc 50
+	 v_disp 200
+	 identity G01
+	end
+limit G04
+	 x_centre 0 -20.302323 0.5
+	 y_centre 0 23.79492 0.5
+	 angle_pos 1 0.0 180
+	 ellipticite 1 0.0 0.7
+	 core_radius_kpc 1 0 25
+	 cut_radius_kpc 1 5 500
+	 v_disp 1 100 1000
+	end
+potfile
+	 filein 3 MACS0308_potfile.lenstool
+	 type 81
+	 zlens 0.356
+	 mag0 20
+	 sigma 1 1 200
+	 corekpc 0.15
+	 cutkpc 1 20 200
+	 slope 0 4. 4.
+	 vdslope 0 4. 4.
+	 end
+field
+	 xmin -90.
+	 xmax 90.
+	 ymin -90.
+	 ymax 90.
+	 end
+cosmology
+	 H0 70.
+	 omega 0.3
+	 lambda 0.7
+	 end
+cline
+	 nplan 1 6.2
+     limitHigh   0.5
+     limitLow    0.100000
+     step 0.1
+	 end
+fini
