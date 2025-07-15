@@ -1,0 +1,117 @@
+#Chi2tot: 558.033762
+#Chi2pos: 558.033762
+#Chi2_vel: 0.000000
+#Chi2_mass: 0.000000
+#Chi2formx: 0.000000
+#Chi2formy: 0.000000
+#Chi2l: 0.000000
+#log(Evidence): -304.265623
+runmode
+	reference     3 47.233278 26.760495
+	image     1 MACS0308_mult_images.lenstool
+	inverse   3 0.500000 200
+	mass      4 1000 0.356000 mass.fits
+	ampli	   1 1000 6.200000 magnification.fits
+	end
+image
+	multfile    8 MACS0308_mult_images.lenstool
+	form       -1
+	z_m_limit  1 B1a B2a 3 1.852501 0.050632 0.0000 
+	z_m_limit  2 6.1 3 4.944721 0.568491 0.0100 
+	z_m_limit  3 K2a 3 1.878083 0.044874 0.0000 
+	sigposArcsec   0.200000
+	end
+grid
+	number      256
+	polar     0
+	nlens   141
+	nlens_opt   2
+	end
+source
+	z_source     0.800000
+	end
+potential O1
+	profile       81
+	x_centre     -6.438810
+	y_centre     3.570689
+	ellipticity     0.392940
+	angle_pos       153.312191
+	core_radius_kpc     199.744976
+	cut_radius_kpc     1500.000000
+	v_disp     1329.255507
+	z_lens     0.3560
+	end
+limit O1
+	x_centre     3 -6.498488 2.421686 0.000000
+	y_centre     3 3.609541 1.501690 0.000000
+	ellipticity     3 0.389103 0.085324 0.000000
+	angle_pos     3 153.337739 0.734179 0.000000
+	core_radius_kpc     3 199.320377 2.838184 0.000000
+	v_disp    3 1332.394349 98.781251 0.000000
+	end
+potential O2
+	profile       81
+	x_centre     0.000000
+	y_centre     0.000000
+	ellipticity     0.193687
+	angle_pos       67.500000
+	core_radius_kpc     22.974244
+	cut_radius_kpc     339.659911
+	v_disp     864.785185
+	z_lens     0.3560
+	end
+limit O2
+	core_radius_kpc     3 23.175768 2.176393 0.000000
+	cut_radius_kpc     3 325.091609 205.549638 0.000000
+	v_disp    3 866.992537 29.717993 0.000000
+	end
+potfile0
+	filein  3 MACS0308_potfile.lenstool
+	zlens   0.356000
+	type    81
+	corekpc 0.150000
+	mag0    17.200000
+	sigma   3 194.439393 19.925991
+	cutkpc  3 16.589673 9.875303
+	slope   0 4.000000 4.000000
+	vdslope 0 4.000000 4.000000
+	vdscatter 0 0.000000 0.000000
+	rcutscatter 0 0.000000 0.000000
+	end
+cline
+	nplan    1 6.200000 
+	dmax     0.000000
+	algorithm   MARCHINGSQUARES
+	limitHigh   0.5
+	limitLow    0.100000
+	end
+large
+	iso         0 0 1.000000 0.000000 0.000000
+	name        best
+	profile      0 0
+	contour     0 0
+	velocity    -1
+	large_dist  2.000000
+	end
+cosmology
+	model       1
+	H0         70.000000
+	omegaM     0.300000
+	omegaX     0.700000
+	omegaK     0.
+	wX         -1.000000
+	wa         0.000000
+	end
+cosmolimit
+	omegaM		0 0.000000 0.000000
+	omegaX		0 0.000000 0.000000
+	wX		0 0.000000 0.000000
+	wa 	0 0.000000 0.000000
+	end
+field
+	xmin     -80.000000
+	xmax     80.000000
+	ymin     -80.000000
+	ymax     80.000000
+	end
+finish
