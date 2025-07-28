@@ -11,10 +11,11 @@ runmode
 	 end
 image
 	 multfile 1 MACS0308_mult_images_with_arc.lenstool
+	 forme -10
 	 z_m_limit 0 1.1   3 1.270 0 0
 	 z_m_limit 1 B1a B2a B3a B4a  1 1.7 2.7 0.01
 	 z_m_limit 1 3.1   1 1.4 2.8 0.01
-	 z_m_limit 0 D1a D2a D3a D4a   3 6.200 0 0
+	 z_m_limit 0 D1a   3 6.200 0 0
 	 z_m_limit 1 6.1   1 2.0 5.0 0.01
 	 z_m_limit 0 7.2a  3 3.39 0 0
 	 z_m_limit 0 8.1   3 3.38 0 0
@@ -22,11 +23,11 @@ image
 	 z_m_limit 1 10.1a 1 1.7 2.5 0.01
 	 z_m_limit 0 K1a K2a  3 3.29 0 0
 	 z_m_limit 0 12.1 1 5.56 0 0
-	 z_m_limit 1 13.1 1 6.75 7.8 0.01
+	 z_m_limit 1 13.1 1 6.0 7.8 0.01
 	 end
 grid
 	 nlens 141
-	 nlens_opt 3
+	 nlens_opt 2
 	 nlens_crit 141
 	 number 256
 	 end
@@ -58,7 +59,7 @@ potentiel G01
 	 z_lens 0.356
 	 ellipticite 0.193687
 	 angle_pos 67.5
-	 core_radius_kpc 0.5
+	 core_radius_kpc 0.15 #0.5
 	 cut_radius_kpc 50
 	 v_disp 200
 	 identity G01
@@ -68,32 +69,10 @@ limit G01
 	 y_centre 0 0 0
 	 angle_pos 0 67.5 67.5
 	 ellipticite 0 0.193687 0.193687
-	 core_radius_kpc 1 0 25
-	 cut_radius_kpc 1 25 500
+	 #core_radius_kpc 1 0 50
+	 core_radius_kpc 0 0.15 0.15
+	 cut_radius_kpc 1 25 700
 	 v_disp 1 100 1000
-	end
-potential 140
-	profile       81
-	x_centre     33.115030
-	y_centre     -40.951080
-	ellipticity     0.129824
-	angle_pos       6.390000
-	core_radius         0.000931
-	core_radius_kpc     0.004650
-	cut_radius         0.102966
-	cut_radius_kpc     0.514253
-	v_disp     34.233686
-	mag		  24.743306
-	z_lens     0.3560
-	end
-limit 140
-	 x_centre 0 33.115030 33.115030
-	 y_centre 0 -40.951080 -40.951080
-	 angle_pos 1 0 180
-	 ellipticite 1 0 0.8
-	 core_radius_kpc 1 0 0.1
-	 cut_radius_kpc 1 0 10
-	 v_disp 1 0 150
 	end
 potfile
 	 filein 3 MACS0308_potfile.lenstool
@@ -102,8 +81,8 @@ potfile
 	 mag0 17.2
 	 sigma 1 1 200
 	 corekpc 0.15
-	 cutkpc 1 1 100
-	 slope 0 4. 4.
+	 cutkpc 1 1 300
+	 slope 0 4. 4. #1 2.5 4.
 	 vdslope 0 4. 4.
 	 end
 field
