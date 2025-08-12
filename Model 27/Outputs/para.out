@@ -1,0 +1,3165 @@
+runmode
+	reference	3 47.233278 26.760495 47.233278 26.760495
+	image	1 MACS0308_mult_images.lenstool
+	end
+grid
+	number		256
+	polar		0
+	nlens	142
+	end
+image
+	z_m_limit	 1 B1a B2a B3a B4a 0 1.894  0.000  0.0000 
+	z_m_limit	 1 3.1 0 2.022  0.000  0.0000 
+	z_m_limit	 1 6.1 0 3.957  0.000  0.0000 
+	z_m_limit	 1 I1a I2a 0 1.914  0.000  0.0000 
+	z_m_limit	 1 10.1a 0 1.777  0.000  0.0000 
+	z_m_limit	 1 13.1 0 7.600  0.000  0.0000 
+	end
+potential
+0
+	profile		81
+	x_centre	0.067295
+	y_centre	0.556048
+	ellipticity	0.101782
+	angle_pos	37.715321
+	core_radius	13.712123
+	core_radius_kpc	68.483764
+	cut_radius	300.336653
+	cut_radius_kpc	1500.000000
+	v_disp		1158.115221
+	z_lens		0.356000
+	end
+potential
+1
+	profile		81
+	x_centre	0.000000
+	y_centre	0.000000
+	ellipticity	0.193687
+	angle_pos	67.500000
+	core_radius	0.030034
+	core_radius_kpc	0.150000
+	cut_radius	78.680374
+	cut_radius_kpc	392.960898
+	v_disp		398.865157
+	z_lens		0.356000
+	end
+potential
+2
+	profile		14
+	gamma	0.129100
+	angle_pos	57.722600
+	kappa	0.000000
+	z_lens		0.356000
+	end
+potential
+3
+	profile		81
+	x_centre	1.690789
+	y_centre	-43.607880
+	ellipticity	0.096026
+	angle_pos	21.100000
+	core_radius	0.023181
+	core_radius_kpc	0.115776
+	cut_radius	46.330062
+	cut_radius_kpc	231.390646
+	v_disp		126.933180
+	mag		17.762372
+	z_lens		0.356000
+	end
+potential
+4
+	profile		81
+	x_centre	-10.315097
+	y_centre	-31.040280
+	ellipticity	0.074929
+	angle_pos	53.689999
+	core_radius	0.023130
+	core_radius_kpc	0.115520
+	cut_radius	46.227699
+	cut_radius_kpc	230.879407
+	v_disp		126.792878
+	mag		17.767175
+	z_lens		0.356000
+	end
+potential
+5
+	profile		81
+	x_centre	-20.302323
+	y_centre	23.794920
+	ellipticity	0.093770
+	angle_pos	-75.489998
+	core_radius	0.021848
+	core_radius_kpc	0.109117
+	cut_radius	43.665665
+	cut_radius_kpc	218.083596
+	v_disp		123.229237
+	mag		17.890986
+	z_lens		0.356000
+	end
+potential
+6
+	profile		81
+	x_centre	-56.111043
+	y_centre	10.359720
+	ellipticity	0.104207
+	angle_pos	79.339996
+	core_radius	0.021805
+	core_radius_kpc	0.108904
+	cut_radius	43.580386
+	cut_radius_kpc	217.657681
+	v_disp		123.108846
+	mag		17.895231
+	z_lens		0.356000
+	end
+potential
+7
+	profile		81
+	x_centre	39.360663
+	y_centre	-23.314680
+	ellipticity	0.330702
+	angle_pos	51.759998
+	core_radius	0.020445
+	core_radius_kpc	0.102111
+	cut_radius	40.862024
+	cut_radius_kpc	204.081106
+	v_disp		119.207522
+	mag		18.035087
+	z_lens		0.356000
+	end
+potential
+8
+	profile		81
+	x_centre	0.800392
+	y_centre	2.770920
+	ellipticity	0.367615
+	angle_pos	-24.000000
+	core_radius	0.019860
+	core_radius_kpc	0.099187
+	cut_radius	39.691917
+	cut_radius_kpc	198.237129
+	v_disp		117.488338
+	mag		18.098176
+	z_lens		0.356000
+	end
+potential
+9
+	profile		81
+	x_centre	15.274959
+	y_centre	56.385720
+	ellipticity	0.235496
+	angle_pos	29.020000
+	core_radius	0.019686
+	core_radius_kpc	0.098320
+	cut_radius	39.344703
+	cut_radius_kpc	196.503006
+	v_disp		116.973331
+	mag		18.117255
+	z_lens		0.356000
+	end
+potential
+10
+	profile		81
+	x_centre	46.548122
+	y_centre	-52.791480
+	ellipticity	0.451960
+	angle_pos	-57.049999
+	core_radius	0.018543
+	core_radius_kpc	0.092609
+	cut_radius	37.059459
+	cut_radius_kpc	185.089592
+	v_disp		113.525457
+	mag		18.247191
+	z_lens		0.356000
+	end
+potential
+11
+	profile		81
+	x_centre	4.291260
+	y_centre	-26.036280
+	ellipticity	0.502788
+	angle_pos	54.820000
+	core_radius	0.018464
+	core_radius_kpc	0.092216
+	cut_radius	36.902032
+	cut_radius_kpc	184.303337
+	v_disp		113.284074
+	mag		18.256435
+	z_lens		0.356000
+	end
+potential
+12
+	profile		81
+	x_centre	-41.639692
+	y_centre	29.450520
+	ellipticity	0.487834
+	angle_pos	-89.970001
+	core_radius	0.017002
+	core_radius_kpc	0.084912
+	cut_radius	33.979539
+	cut_radius_kpc	169.707251
+	v_disp		108.705736
+	mag		18.435599
+	z_lens		0.356000
+	end
+potential
+13
+	profile		81
+	x_centre	0.208938
+	y_centre	9.898920
+	ellipticity	0.719861
+	angle_pos	-48.009998
+	core_radius	0.016492
+	core_radius_kpc	0.082369
+	cut_radius	32.961903
+	cut_radius_kpc	164.624777
+	v_disp		107.065576
+	mag		18.501625
+	z_lens		0.356000
+	end
+potential
+14
+	profile		81
+	x_centre	4.622347
+	y_centre	-1.196280
+	ellipticity	0.148660
+	angle_pos	54.500000
+	core_radius	0.016357
+	core_radius_kpc	0.081695
+	cut_radius	32.691818
+	cut_radius_kpc	163.275867
+	v_disp		106.626035
+	mag		18.519491
+	z_lens		0.356000
+	end
+potential
+15
+	profile		81
+	x_centre	11.607297
+	y_centre	-65.344680
+	ellipticity	0.462234
+	angle_pos	-60.919998
+	core_radius	0.015766
+	core_radius_kpc	0.078740
+	cut_radius	31.509599
+	cut_radius_kpc	157.371396
+	v_disp		104.680348
+	mag		18.599472
+	z_lens		0.356000
+	end
+potential
+16
+	profile		81
+	x_centre	50.280072
+	y_centre	-38.956680
+	ellipticity	0.119807
+	angle_pos	-81.440002
+	core_radius	0.015220
+	core_radius_kpc	0.076016
+	cut_radius	30.419262
+	cut_radius_kpc	151.925823
+	v_disp		102.853259
+	mag		18.675943
+	z_lens		0.356000
+	end
+potential
+17
+	profile		81
+	x_centre	29.113068
+	y_centre	-2.359080
+	ellipticity	0.069456
+	angle_pos	-55.529999
+	core_radius	0.014767
+	core_radius_kpc	0.073754
+	cut_radius	29.514245
+	cut_radius_kpc	147.405809
+	v_disp		101.311690
+	mag		18.741528
+	z_lens		0.356000
+	end
+potential
+18
+	profile		81
+	x_centre	5.159156
+	y_centre	20.403720
+	ellipticity	0.432594
+	angle_pos	65.220001
+	core_radius	0.014072
+	core_radius_kpc	0.070279
+	cut_radius	28.123727
+	cut_radius_kpc	140.461014
+	v_disp		98.896326
+	mag		18.846322
+	z_lens		0.356000
+	end
+potential
+19
+	profile		81
+	x_centre	3.285145
+	y_centre	-0.955080
+	ellipticity	0.347664
+	angle_pos	48.099998
+	core_radius	0.013972
+	core_radius_kpc	0.069781
+	cut_radius	27.924183
+	cut_radius_kpc	139.464412
+	v_disp		98.544856
+	mag		18.861784
+	z_lens		0.356000
+	end
+potential
+20
+	profile		81
+	x_centre	27.685863
+	y_centre	-15.538680
+	ellipticity	0.296427
+	angle_pos	0.100000
+	core_radius	0.013712
+	core_radius_kpc	0.068485
+	cut_radius	27.405850
+	cut_radius_kpc	136.875651
+	v_disp		97.625969
+	mag		18.902470
+	z_lens		0.356000
+	end
+potential
+21
+	profile		81
+	x_centre	-45.680227
+	y_centre	16.281720
+	ellipticity	0.100078
+	angle_pos	61.599998
+	core_radius	0.013460
+	core_radius_kpc	0.067225
+	cut_radius	26.901350
+	cut_radius_kpc	134.355979
+	v_disp		96.723223
+	mag		18.942816
+	z_lens		0.356000
+	end
+potential
+22
+	profile		81
+	x_centre	-2.970131
+	y_centre	-61.582680
+	ellipticity	0.646428
+	angle_pos	-15.510000
+	core_radius	0.013416
+	core_radius_kpc	0.067003
+	cut_radius	26.812683
+	cut_radius_kpc	133.913142
+	v_disp		96.563691
+	mag		18.949985
+	z_lens		0.356000
+	end
+potential
+23
+	profile		81
+	x_centre	-17.627919
+	y_centre	-38.636280
+	ellipticity	0.196510
+	angle_pos	-13.230000
+	core_radius	0.013242
+	core_radius_kpc	0.066134
+	cut_radius	26.465023
+	cut_radius_kpc	132.176789
+	v_disp		95.935614
+	mag		18.978325
+	z_lens		0.356000
+	end
+potential
+24
+	profile		81
+	x_centre	-3.821954
+	y_centre	2.014920
+	ellipticity	0.536256
+	angle_pos	-28.340000
+	core_radius	0.013169
+	core_radius_kpc	0.065774
+	cut_radius	26.320678
+	cut_radius_kpc	131.455875
+	v_disp		95.673632
+	mag		18.990201
+	z_lens		0.356000
+	end
+potential
+25
+	profile		81
+	x_centre	49.155023
+	y_centre	-52.489080
+	ellipticity	0.506864
+	angle_pos	-52.810001
+	core_radius	0.013050
+	core_radius_kpc	0.065175
+	cut_radius	26.081218
+	cut_radius_kpc	130.259917
+	v_disp		95.237428
+	mag		19.010047
+	z_lens		0.356000
+	end
+potential
+26
+	profile		81
+	x_centre	-50.768665
+	y_centre	8.570520
+	ellipticity	0.243695
+	angle_pos	-33.730000
+	core_radius	0.012973
+	core_radius_kpc	0.064790
+	cut_radius	25.927239
+	cut_radius_kpc	129.490885
+	v_disp		94.955879
+	mag		19.022905
+	z_lens		0.356000
+	end
+potential
+27
+	profile		81
+	x_centre	3.002275
+	y_centre	-4.274280
+	ellipticity	0.051419
+	angle_pos	13.560000
+	core_radius	0.012952
+	core_radius_kpc	0.064689
+	cut_radius	25.886508
+	cut_radius_kpc	129.287459
+	v_disp		94.881263
+	mag		19.026319
+	z_lens		0.356000
+	end
+potential
+28
+	profile		81
+	x_centre	-48.351416
+	y_centre	15.846120
+	ellipticity	0.219043
+	angle_pos	-68.760002
+	core_radius	0.012802
+	core_radius_kpc	0.063939
+	cut_radius	25.586358
+	cut_radius_kpc	127.788390
+	v_disp		94.329593
+	mag		19.051644
+	z_lens		0.356000
+	end
+potential
+29
+	profile		81
+	x_centre	-17.165042
+	y_centre	-30.925080
+	ellipticity	0.103165
+	angle_pos	6.060000
+	core_radius	0.012453
+	core_radius_kpc	0.062195
+	cut_radius	24.888818
+	cut_radius_kpc	124.304600
+	v_disp		93.034892
+	mag		19.111665
+	z_lens		0.356000
+	end
+potential
+30
+	profile		81
+	x_centre	-38.460623
+	y_centre	-32.793480
+	ellipticity	0.286230
+	angle_pos	-89.930000
+	core_radius	0.012426
+	core_radius_kpc	0.062062
+	cut_radius	24.835475
+	cut_radius_kpc	124.038184
+	v_disp		92.935140
+	mag		19.116324
+	z_lens		0.356000
+	end
+potential
+31
+	profile		81
+	x_centre	-1.269699
+	y_centre	29.770920
+	ellipticity	0.261909
+	angle_pos	-63.439999
+	core_radius	0.012198
+	core_radius_kpc	0.060919
+	cut_radius	24.378135
+	cut_radius_kpc	121.754045
+	v_disp		92.075473
+	mag		19.156684
+	z_lens		0.356000
+	end
+potential
+32
+	profile		81
+	x_centre	-51.552986
+	y_centre	23.470920
+	ellipticity	0.259658
+	angle_pos	-57.610001
+	core_radius	0.012004
+	core_radius_kpc	0.059953
+	cut_radius	23.991504
+	cut_radius_kpc	119.823058
+	v_disp		91.342409
+	mag		19.191399
+	z_lens		0.356000
+	end
+potential
+33
+	profile		81
+	x_centre	40.054979
+	y_centre	10.050120
+	ellipticity	0.283818
+	angle_pos	42.459999
+	core_radius	0.011558
+	core_radius_kpc	0.057723
+	cut_radius	23.099218
+	cut_radius_kpc	115.366628
+	v_disp		89.627722
+	mag		19.273700
+	z_lens		0.356000
+	end
+potential
+34
+	profile		81
+	x_centre	-16.274646
+	y_centre	-4.029480
+	ellipticity	0.616796
+	angle_pos	-8.310000
+	core_radius	0.011510
+	core_radius_kpc	0.057485
+	cut_radius	23.003794
+	cut_radius_kpc	114.890045
+	v_disp		89.442403
+	mag		19.282689
+	z_lens		0.356000
+	end
+potential
+35
+	profile		81
+	x_centre	26.657246
+	y_centre	6.500520
+	ellipticity	0.587710
+	angle_pos	84.720001
+	core_radius	0.011506
+	core_radius_kpc	0.057468
+	cut_radius	22.997005
+	cut_radius_kpc	114.856135
+	v_disp		89.429203
+	mag		19.283330
+	z_lens		0.356000
+	end
+potential
+36
+	profile		81
+	x_centre	-12.089461
+	y_centre	-54.487080
+	ellipticity	0.089984
+	angle_pos	-3.070000
+	core_radius	0.010809
+	core_radius_kpc	0.053984
+	cut_radius	21.602692
+	cut_radius_kpc	107.892386
+	v_disp		86.675760
+	mag		19.419147
+	z_lens		0.356000
+	end
+potential
+37
+	profile		81
+	x_centre	6.833873
+	y_centre	-13.403880
+	ellipticity	0.051559
+	angle_pos	85.139999
+	core_radius	0.010629
+	core_radius_kpc	0.053084
+	cut_radius	21.242864
+	cut_radius_kpc	106.095264
+	v_disp		85.950866
+	mag		19.455621
+	z_lens		0.356000
+	end
+potential
+38
+	profile		81
+	x_centre	-56.239621
+	y_centre	-14.685480
+	ellipticity	0.285425
+	angle_pos	-37.750000
+	core_radius	0.010616
+	core_radius_kpc	0.053020
+	cut_radius	21.217181
+	cut_radius_kpc	105.966990
+	v_disp		85.898891
+	mag		19.458248
+	z_lens		0.356000
+	end
+potential
+39
+	profile		81
+	x_centre	-29.524515
+	y_centre	52.216920
+	ellipticity	0.069272
+	angle_pos	15.080000
+	core_radius	0.010528
+	core_radius_kpc	0.052579
+	cut_radius	21.040501
+	cut_radius_kpc	105.084581
+	v_disp		85.540495
+	mag		19.476406
+	z_lens		0.356000
+	end
+potential
+40
+	profile		81
+	x_centre	19.575862
+	y_centre	-17.803080
+	ellipticity	0.124883
+	angle_pos	-30.950001
+	core_radius	0.010446
+	core_radius_kpc	0.052173
+	cut_radius	20.878047
+	cut_radius_kpc	104.273223
+	v_disp		85.209626
+	mag		19.493237
+	z_lens		0.356000
+	end
+potential
+41
+	profile		81
+	x_centre	5.917761
+	y_centre	0.765720
+	ellipticity	0.451471
+	angle_pos	-18.889999
+	core_radius	0.010380
+	core_radius_kpc	0.051844
+	cut_radius	20.746311
+	cut_radius_kpc	103.615279
+	v_disp		84.940372
+	mag		19.506982
+	z_lens		0.356000
+	end
+potential
+42
+	profile		81
+	x_centre	-58.489720
+	y_centre	-28.685880
+	ellipticity	0.171798
+	angle_pos	-53.020000
+	core_radius	0.010254
+	core_radius_kpc	0.051214
+	cut_radius	20.494460
+	cut_radius_kpc	102.357436
+	v_disp		84.423229
+	mag		19.533504
+	z_lens		0.356000
+	end
+potential
+43
+	profile		81
+	x_centre	-70.935982
+	y_centre	-14.703480
+	ellipticity	0.154486
+	angle_pos	62.669998
+	core_radius	0.010212
+	core_radius_kpc	0.051004
+	cut_radius	20.410445
+	cut_radius_kpc	101.937833
+	v_disp		84.250010
+	mag		19.542424
+	z_lens		0.356000
+	end
+potential
+44
+	profile		81
+	x_centre	3.719092
+	y_centre	40.455720
+	ellipticity	0.044827
+	angle_pos	-74.989998
+	core_radius	0.010041
+	core_radius_kpc	0.050148
+	cut_radius	20.067685
+	cut_radius_kpc	100.225954
+	v_disp		83.539594
+	mag		19.579200
+	z_lens		0.356000
+	end
+potential
+45
+	profile		81
+	x_centre	31.376025
+	y_centre	24.997320
+	ellipticity	0.145303
+	angle_pos	-15.940000
+	core_radius	0.010017
+	core_radius_kpc	0.050027
+	cut_radius	20.019327
+	cut_radius_kpc	99.984435
+	v_disp		83.438879
+	mag		19.584439
+	z_lens		0.356000
+	end
+potential
+46
+	profile		81
+	x_centre	54.285249
+	y_centre	-16.046280
+	ellipticity	0.332573
+	angle_pos	88.300003
+	core_radius	0.009969
+	core_radius_kpc	0.049787
+	cut_radius	19.923392
+	cut_radius_kpc	99.505297
+	v_disp		83.238713
+	mag		19.594870
+	z_lens		0.356000
+	end
+potential
+47
+	profile		81
+	x_centre	6.010979
+	y_centre	-7.168680
+	ellipticity	0.144842
+	angle_pos	80.120003
+	core_radius	0.009920
+	core_radius_kpc	0.049544
+	cut_radius	19.826191
+	cut_radius_kpc	99.019835
+	v_disp		83.035415
+	mag		19.605490
+	z_lens		0.356000
+	end
+potential
+48
+	profile		81
+	x_centre	-5.875973
+	y_centre	12.832920
+	ellipticity	0.495919
+	angle_pos	-67.260002
+	core_radius	0.009878
+	core_radius_kpc	0.049335
+	cut_radius	19.742397
+	cut_radius_kpc	98.601336
+	v_disp		82.859758
+	mag		19.614687
+	z_lens		0.356000
+	end
+potential
+49
+	profile		81
+	x_centre	-36.168736
+	y_centre	2.655720
+	ellipticity	0.389026
+	angle_pos	-28.400000
+	core_radius	0.009803
+	core_radius_kpc	0.048961
+	cut_radius	19.592943
+	cut_radius_kpc	97.854905
+	v_disp		82.545530
+	mag		19.631188
+	z_lens		0.356000
+	end
+potential
+50
+	profile		81
+	x_centre	-68.914108
+	y_centre	-1.599480
+	ellipticity	0.660742
+	angle_pos	79.949997
+	core_radius	0.009591
+	core_radius_kpc	0.047899
+	cut_radius	19.167712
+	cut_radius_kpc	95.731133
+	v_disp		81.644862
+	mag		19.678835
+	z_lens		0.356000
+	end
+potential
+51
+	profile		81
+	x_centre	0.906469
+	y_centre	1.244520
+	ellipticity	0.400763
+	angle_pos	33.790001
+	core_radius	0.009218
+	core_radius_kpc	0.046038
+	cut_radius	18.423268
+	cut_radius_kpc	92.013086
+	v_disp		80.043682
+	mag		19.764853
+	z_lens		0.356000
+	end
+potential
+52
+	profile		81
+	x_centre	1.015759
+	y_centre	0.920520
+	ellipticity	0.168189
+	angle_pos	57.400002
+	core_radius	0.009160
+	core_radius_kpc	0.045750
+	cut_radius	18.307830
+	cut_radius_kpc	91.436543
+	v_disp		79.792516
+	mag		19.778502
+	z_lens		0.356000
+	end
+potential
+53
+	profile		81
+	x_centre	10.617253
+	y_centre	33.363720
+	ellipticity	0.310040
+	angle_pos	50.080002
+	core_radius	0.008980
+	core_radius_kpc	0.044847
+	cut_radius	17.946596
+	cut_radius_kpc	89.632395
+	v_disp		79.001395
+	mag		19.821776
+	z_lens		0.356000
+	end
+potential
+54
+	profile		81
+	x_centre	15.461395
+	y_centre	-67.367880
+	ellipticity	0.403543
+	angle_pos	-52.709999
+	core_radius	0.008923
+	core_radius_kpc	0.044564
+	cut_radius	17.833077
+	cut_radius_kpc	89.065436
+	v_disp		78.751142
+	mag		19.835555
+	z_lens		0.356000
+	end
+potential
+55
+	profile		81
+	x_centre	-2.886556
+	y_centre	-5.509080
+	ellipticity	0.133428
+	angle_pos	-24.180000
+	core_radius	0.008892
+	core_radius_kpc	0.044408
+	cut_radius	17.770755
+	cut_radius_kpc	88.754176
+	v_disp		78.613414
+	mag		19.843157
+	z_lens		0.356000
+	end
+potential
+56
+	profile		81
+	x_centre	-16.782525
+	y_centre	15.180120
+	ellipticity	0.315085
+	angle_pos	-62.380001
+	core_radius	0.008867
+	core_radius_kpc	0.044284
+	cut_radius	17.721173
+	cut_radius_kpc	88.506547
+	v_disp		78.503670
+	mag		19.849224
+	z_lens		0.356000
+	end
+potential
+57
+	profile		81
+	x_centre	-16.940032
+	y_centre	-0.908280
+	ellipticity	0.332740
+	angle_pos	-60.660000
+	core_radius	0.008574
+	core_radius_kpc	0.042822
+	cut_radius	17.136017
+	cut_radius_kpc	85.584043
+	v_disp		77.196686
+	mag		19.922137
+	z_lens		0.356000
+	end
+potential
+58
+	profile		81
+	x_centre	-18.560103
+	y_centre	-50.685480
+	ellipticity	0.609320
+	angle_pos	53.310001
+	core_radius	0.008369
+	core_radius_kpc	0.041799
+	cut_radius	16.726670
+	cut_radius_kpc	83.539601
+	v_disp		76.269071
+	mag		19.974639
+	z_lens		0.356000
+	end
+potential
+59
+	profile		81
+	x_centre	65.735039
+	y_centre	-21.856680
+	ellipticity	0.136590
+	angle_pos	79.589996
+	core_radius	0.008036
+	core_radius_kpc	0.040133
+	cut_radius	16.060220
+	cut_radius_kpc	80.211086
+	v_disp		74.734212
+	mag		20.062929
+	z_lens		0.356000
+	end
+potential
+60
+	profile		81
+	x_centre	-2.523325
+	y_centre	-4.882680
+	ellipticity	0.110619
+	angle_pos	-34.619999
+	core_radius	0.007914
+	core_radius_kpc	0.039526
+	cut_radius	15.817203
+	cut_radius_kpc	78.997364
+	v_disp		74.166632
+	mag		20.096038
+	z_lens		0.356000
+	end
+potential
+61
+	profile		81
+	x_centre	34.953683
+	y_centre	-19.707480
+	ellipticity	0.335807
+	angle_pos	-42.330002
+	core_radius	0.007902
+	core_radius_kpc	0.039467
+	cut_radius	15.793598
+	cut_radius_kpc	78.879473
+	v_disp		74.111271
+	mag		20.099281
+	z_lens		0.356000
+	end
+potential
+62
+	profile		81
+	x_centre	31.205661
+	y_centre	22.981320
+	ellipticity	0.983546
+	angle_pos	85.580002
+	core_radius	0.007826
+	core_radius_kpc	0.039086
+	cut_radius	15.641071
+	cut_radius_kpc	78.117691
+	v_disp		73.752536
+	mag		20.120354
+	z_lens		0.356000
+	end
+potential
+63
+	profile		81
+	x_centre	-14.644931
+	y_centre	-34.924680
+	ellipticity	0.164183
+	angle_pos	33.930000
+	core_radius	0.007785
+	core_radius_kpc	0.038881
+	cut_radius	15.558914
+	cut_radius_kpc	77.707368
+	v_disp		73.558584
+	mag		20.131790
+	z_lens		0.356000
+	end
+potential
+64
+	profile		81
+	x_centre	-32.719656
+	y_centre	-40.630680
+	ellipticity	0.311323
+	angle_pos	52.349998
+	core_radius	0.007740
+	core_radius_kpc	0.038655
+	cut_radius	15.468702
+	cut_radius_kpc	77.256815
+	v_disp		73.345025
+	mag		20.144417
+	z_lens		0.356000
+	end
+potential
+65
+	profile		81
+	x_centre	5.650963
+	y_centre	0.103320
+	ellipticity	0.216317
+	angle_pos	-53.400002
+	core_radius	0.007699
+	core_radius_kpc	0.038452
+	cut_radius	15.387288
+	cut_radius_kpc	76.850199
+	v_disp		73.151757
+	mag		20.155876
+	z_lens		0.356000
+	end
+potential
+66
+	profile		81
+	x_centre	18.042581
+	y_centre	29.220120
+	ellipticity	0.189111
+	angle_pos	-16.590000
+	core_radius	0.007557
+	core_radius_kpc	0.037742
+	cut_radius	15.103099
+	cut_radius_kpc	75.430849
+	v_disp		72.473087
+	mag		20.196356
+	z_lens		0.356000
+	end
+potential
+67
+	profile		81
+	x_centre	-11.472291
+	y_centre	30.476520
+	ellipticity	0.189539
+	angle_pos	84.220001
+	core_radius	0.007549
+	core_radius_kpc	0.037705
+	cut_radius	15.088313
+	cut_radius_kpc	75.357000
+	v_disp		72.437601
+	mag		20.198483
+	z_lens		0.356000
+	end
+potential
+68
+	profile		81
+	x_centre	-53.079838
+	y_centre	-2.953080
+	ellipticity	0.088177
+	angle_pos	83.739998
+	core_radius	0.007544
+	core_radius_kpc	0.037678
+	cut_radius	15.077748
+	cut_radius_kpc	75.304235
+	v_disp		72.412236
+	mag		20.200004
+	z_lens		0.356000
+	end
+potential
+69
+	profile		81
+	x_centre	-18.794757
+	y_centre	18.513720
+	ellipticity	0.080421
+	angle_pos	-68.250000
+	core_radius	0.007206
+	core_radius_kpc	0.035989
+	cut_radius	14.401850
+	cut_radius_kpc	71.928532
+	v_disp		70.770597
+	mag		20.299595
+	z_lens		0.356000
+	end
+potential
+70
+	profile		81
+	x_centre	39.183869
+	y_centre	10.546920
+	ellipticity	0.198956
+	angle_pos	-80.970001
+	core_radius	0.007203
+	core_radius_kpc	0.035973
+	cut_radius	14.395425
+	cut_radius_kpc	71.896442
+	v_disp		70.754808
+	mag		20.300564
+	z_lens		0.356000
+	end
+potential
+71
+	profile		81
+	x_centre	15.072450
+	y_centre	-12.482280
+	ellipticity	0.042534
+	angle_pos	-68.620003
+	core_radius	0.007087
+	core_radius_kpc	0.035393
+	cut_radius	14.163457
+	cut_radius_kpc	70.737906
+	v_disp		70.182423
+	mag		20.335840
+	z_lens		0.356000
+	end
+potential
+72
+	profile		81
+	x_centre	44.182304
+	y_centre	-12.435480
+	ellipticity	0.499371
+	angle_pos	35.459999
+	core_radius	0.007007
+	core_radius_kpc	0.034994
+	cut_radius	14.003419
+	cut_radius_kpc	69.938610
+	v_disp		69.784787
+	mag		20.360516
+	z_lens		0.356000
+	end
+potential
+73
+	profile		81
+	x_centre	-50.884385
+	y_centre	-1.977480
+	ellipticity	0.228255
+	angle_pos	43.590000
+	core_radius	0.006974
+	core_radius_kpc	0.034830
+	cut_radius	13.938155
+	cut_radius_kpc	69.612655
+	v_disp		69.621978
+	mag		20.370660
+	z_lens		0.356000
+	end
+potential
+74
+	profile		81
+	x_centre	32.272850
+	y_centre	-56.614680
+	ellipticity	0.456036
+	angle_pos	-42.470001
+	core_radius	0.006877
+	core_radius_kpc	0.034346
+	cut_radius	13.744447
+	cut_radius_kpc	68.645204
+	v_disp		69.136495
+	mag		20.401050
+	z_lens		0.356000
+	end
+potential
+75
+	profile		81
+	x_centre	30.749212
+	y_centre	45.448920
+	ellipticity	0.019843
+	angle_pos	61.820000
+	core_radius	0.006833
+	core_radius_kpc	0.034128
+	cut_radius	13.656955
+	cut_radius_kpc	68.208233
+	v_disp		68.916095
+	mag		20.414917
+	z_lens		0.356000
+	end
+potential
+76
+	profile		81
+	x_centre	-15.307103
+	y_centre	-3.971880
+	ellipticity	0.224401
+	angle_pos	-58.490002
+	core_radius	0.006692
+	core_radius_kpc	0.033423
+	cut_radius	13.374855
+	cut_radius_kpc	66.799313
+	v_disp		68.200610
+	mag		20.460241
+	z_lens		0.356000
+	end
+potential
+77
+	profile		81
+	x_centre	-27.943017
+	y_centre	17.862120
+	ellipticity	0.195826
+	angle_pos	80.720001
+	core_radius	0.006659
+	core_radius_kpc	0.033257
+	cut_radius	13.308664
+	cut_radius_kpc	66.468733
+	v_disp		68.031643
+	mag		20.471014
+	z_lens		0.356000
+	end
+potential
+78
+	profile		81
+	x_centre	15.204241
+	y_centre	39.480120
+	ellipticity	0.338159
+	angle_pos	-44.419998
+	core_radius	0.006353
+	core_radius_kpc	0.031730
+	cut_radius	12.697443
+	cut_radius_kpc	63.416052
+	v_disp		66.451052
+	mag		20.573105
+	z_lens		0.356000
+	end
+potential
+79
+	profile		81
+	x_centre	56.040326
+	y_centre	-40.763880
+	ellipticity	0.642985
+	angle_pos	29.389999
+	core_radius	0.006316
+	core_radius_kpc	0.031543
+	cut_radius	12.622654
+	cut_radius_kpc	63.042525
+	v_disp		66.255061
+	mag		20.585933
+	z_lens		0.356000
+	end
+potential
+80
+	profile		81
+	x_centre	-28.020163
+	y_centre	26.116920
+	ellipticity	0.217345
+	angle_pos	-83.989998
+	core_radius	0.006314
+	core_radius_kpc	0.031534
+	cut_radius	12.619114
+	cut_radius_kpc	63.024847
+	v_disp		66.245771
+	mag		20.586542
+	z_lens		0.356000
+	end
+potential
+81
+	profile		81
+	x_centre	2.426893
+	y_centre	0.351720
+	ellipticity	0.525426
+	angle_pos	-0.540000
+	core_radius	0.006180
+	core_radius_kpc	0.030865
+	cut_radius	12.351260
+	cut_radius_kpc	61.687078
+	v_disp		65.538932
+	mag		20.633130
+	z_lens		0.356000
+	end
+potential
+82
+	profile		81
+	x_centre	-7.235676
+	y_centre	-6.470280
+	ellipticity	0.064906
+	angle_pos	72.040001
+	core_radius	0.006165
+	core_radius_kpc	0.030789
+	cut_radius	12.320765
+	cut_radius_kpc	61.534772
+	v_disp		65.457974
+	mag		20.638498
+	z_lens		0.356000
+	end
+potential
+83
+	profile		81
+	x_centre	53.282347
+	y_centre	-34.910280
+	ellipticity	0.211120
+	angle_pos	-72.099998
+	core_radius	0.006063
+	core_radius_kpc	0.030280
+	cut_radius	12.117256
+	cut_radius_kpc	60.518367
+	v_disp		64.915119
+	mag		20.674665
+	z_lens		0.356000
+	end
+potential
+84
+	profile		81
+	x_centre	52.523743
+	y_centre	-24.164280
+	ellipticity	0.211186
+	angle_pos	-51.939999
+	core_radius	0.006061
+	core_radius_kpc	0.030273
+	cut_radius	12.114360
+	cut_radius_kpc	60.503904
+	v_disp		64.907362
+	mag		20.675184
+	z_lens		0.356000
+	end
+potential
+85
+	profile		81
+	x_centre	3.506940
+	y_centre	22.056120
+	ellipticity	0.226441
+	angle_pos	89.400002
+	core_radius	0.006034
+	core_radius_kpc	0.030134
+	cut_radius	12.058705
+	cut_radius_kpc	60.225942
+	v_disp		64.758094
+	mag		20.685183
+	z_lens		0.356000
+	end
+potential
+86
+	profile		81
+	x_centre	-28.370536
+	y_centre	-17.029080
+	ellipticity	0.033834
+	angle_pos	-79.800003
+	core_radius	0.005790
+	core_radius_kpc	0.028920
+	cut_radius	11.572774
+	cut_radius_kpc	57.799010
+	v_disp		63.439896
+	mag		20.774499
+	z_lens		0.356000
+	end
+potential
+87
+	profile		81
+	x_centre	-44.995554
+	y_centre	-4.699080
+	ellipticity	0.368288
+	angle_pos	74.430000
+	core_radius	0.005750
+	core_radius_kpc	0.028716
+	cut_radius	11.491499
+	cut_radius_kpc	57.393089
+	v_disp		63.216735
+	mag		20.789803
+	z_lens		0.356000
+	end
+potential
+88
+	profile		81
+	x_centre	-44.458744
+	y_centre	-24.661080
+	ellipticity	0.415219
+	angle_pos	-13.000000
+	core_radius	0.005668
+	core_radius_kpc	0.028306
+	cut_radius	11.327198
+	cut_radius_kpc	56.572504
+	v_disp		62.763183
+	mag		20.821074
+	z_lens		0.356000
+	end
+potential
+89
+	profile		81
+	x_centre	2.545826
+	y_centre	20.472120
+	ellipticity	0.020948
+	angle_pos	-64.629997
+	core_radius	0.005541
+	core_radius_kpc	0.027675
+	cut_radius	11.074738
+	cut_radius_kpc	55.311623
+	v_disp		62.059812
+	mag		20.870019
+	z_lens		0.356000
+	end
+potential
+90
+	profile		81
+	x_centre	-6.390282
+	y_centre	69.972120
+	ellipticity	0.547717
+	angle_pos	61.860001
+	core_radius	0.005530
+	core_radius_kpc	0.027617
+	cut_radius	11.051399
+	cut_radius_kpc	55.195059
+	v_disp		61.994385
+	mag		20.874600
+	z_lens		0.356000
+	end
+potential
+91
+	profile		81
+	x_centre	-36.467678
+	y_centre	7.166520
+	ellipticity	0.330655
+	angle_pos	79.529999
+	core_radius	0.005518
+	core_radius_kpc	0.027560
+	cut_radius	11.028877
+	cut_radius_kpc	55.082570
+	v_disp		61.931181
+	mag		20.879030
+	z_lens		0.356000
+	end
+potential
+92
+	profile		81
+	x_centre	-59.174393
+	y_centre	-31.976280
+	ellipticity	0.473399
+	angle_pos	-71.989998
+	core_radius	0.005407
+	core_radius_kpc	0.027005
+	cut_radius	10.806660
+	cut_radius_kpc	53.972732
+	v_disp		61.304091
+	mag		20.923229
+	z_lens		0.356000
+	end
+potential
+93
+	profile		81
+	x_centre	-61.768436
+	y_centre	-28.855080
+	ellipticity	0.219474
+	angle_pos	-87.500000
+	core_radius	0.005371
+	core_radius_kpc	0.026827
+	cut_radius	10.735327
+	cut_radius_kpc	53.616468
+	v_disp		61.101428
+	mag		20.937610
+	z_lens		0.356000
+	end
+potential
+94
+	profile		81
+	x_centre	6.509215
+	y_centre	-29.204280
+	ellipticity	0.088388
+	angle_pos	-3.260000
+	core_radius	0.005222
+	core_radius_kpc	0.026082
+	cut_radius	10.437192
+	cut_radius_kpc	52.127464
+	v_disp		60.247018
+	mag		20.998768
+	z_lens		0.356000
+	end
+potential
+95
+	profile		81
+	x_centre	8.717527
+	y_centre	-42.823080
+	ellipticity	0.535904
+	angle_pos	52.080002
+	core_radius	0.005112
+	core_radius_kpc	0.025533
+	cut_radius	10.217708
+	cut_radius_kpc	51.031273
+	v_disp		59.610184
+	mag		21.044919
+	z_lens		0.356000
+	end
+potential
+96
+	profile		81
+	x_centre	-9.456845
+	y_centre	-61.222680
+	ellipticity	0.518018
+	angle_pos	15.930000
+	core_radius	0.005009
+	core_radius_kpc	0.025016
+	cut_radius	10.010622
+	cut_radius_kpc	49.997006
+	v_disp		59.003022
+	mag		21.089381
+	z_lens		0.356000
+	end
+potential
+97
+	profile		81
+	x_centre	19.906948
+	y_centre	-43.481880
+	ellipticity	0.606273
+	angle_pos	-17.389999
+	core_radius	0.004990
+	core_radius_kpc	0.024923
+	cut_radius	9.973612
+	cut_radius_kpc	49.812163
+	v_disp		58.893852
+	mag		21.097424
+	z_lens		0.356000
+	end
+potential
+98
+	profile		81
+	x_centre	12.774134
+	y_centre	-14.156280
+	ellipticity	0.159628
+	angle_pos	42.419998
+	core_radius	0.004983
+	core_radius_kpc	0.024886
+	cut_radius	9.958577
+	cut_radius_kpc	49.737070
+	v_disp		58.849443
+	mag		21.100700
+	z_lens		0.356000
+	end
+potential
+99
+	profile		81
+	x_centre	-6.907804
+	y_centre	9.384120
+	ellipticity	0.298466
+	angle_pos	-53.029999
+	core_radius	0.004956
+	core_radius_kpc	0.024753
+	cut_radius	9.905611
+	cut_radius_kpc	49.472539
+	v_disp		58.692737
+	mag		21.112280
+	z_lens		0.356000
+	end
+potential
+100
+	profile		81
+	x_centre	17.396481
+	y_centre	10.759320
+	ellipticity	0.603298
+	angle_pos	79.000000
+	core_radius	0.004878
+	core_radius_kpc	0.024364
+	cut_radius	9.749579
+	cut_radius_kpc	48.693254
+	v_disp		58.228642
+	mag		21.146757
+	z_lens		0.356000
+	end
+potential
+101
+	profile		81
+	x_centre	-55.468158
+	y_centre	8.764920
+	ellipticity	0.647480
+	angle_pos	77.160004
+	core_radius	0.004796
+	core_radius_kpc	0.023951
+	cut_radius	9.584355
+	cut_radius_kpc	47.868057
+	v_disp		57.733137
+	mag		21.183872
+	z_lens		0.356000
+	end
+potential
+102
+	profile		81
+	x_centre	-5.599532
+	y_centre	-48.151080
+	ellipticity	0.277391
+	angle_pos	41.470001
+	core_radius	0.004682
+	core_radius_kpc	0.023384
+	cut_radius	9.357479
+	cut_radius_kpc	46.734952
+	v_disp		57.045732
+	mag		21.235892
+	z_lens		0.356000
+	end
+potential
+103
+	profile		81
+	x_centre	21.186291
+	y_centre	36.686520
+	ellipticity	0.111060
+	angle_pos	-64.459999
+	core_radius	0.004649
+	core_radius_kpc	0.023217
+	cut_radius	9.290808
+	cut_radius_kpc	46.401968
+	v_disp		56.842145
+	mag		21.251419
+	z_lens		0.356000
+	end
+potential
+104
+	profile		81
+	x_centre	0.855038
+	y_centre	-6.625080
+	ellipticity	0.450801
+	angle_pos	82.080002
+	core_radius	0.004638
+	core_radius_kpc	0.023166
+	cut_radius	9.270541
+	cut_radius_kpc	46.300747
+	v_disp		56.780114
+	mag		21.256161
+	z_lens		0.356000
+	end
+potential
+105
+	profile		81
+	x_centre	63.523513
+	y_centre	19.255320
+	ellipticity	0.149945
+	angle_pos	-41.959999
+	core_radius	0.004577
+	core_radius_kpc	0.022860
+	cut_radius	9.147994
+	cut_radius_kpc	45.688700
+	v_disp		56.403579
+	mag		21.285057
+	z_lens		0.356000
+	end
+potential
+106
+	profile		81
+	x_centre	24.847523
+	y_centre	-40.151880
+	ellipticity	0.155661
+	angle_pos	-6.990000
+	core_radius	0.004555
+	core_radius_kpc	0.022748
+	cut_radius	9.102927
+	cut_radius_kpc	45.463618
+	v_disp		56.264473
+	mag		21.295781
+	z_lens		0.356000
+	end
+potential
+107
+	profile		81
+	x_centre	-64.339977
+	y_centre	-18.742680
+	ellipticity	0.543004
+	angle_pos	-80.839996
+	core_radius	0.004509
+	core_radius_kpc	0.022521
+	cut_radius	9.012118
+	cut_radius_kpc	45.010081
+	v_disp		55.983128
+	mag		21.317552
+	z_lens		0.356000
+	end
+potential
+108
+	profile		81
+	x_centre	54.031309
+	y_centre	17.394120
+	ellipticity	0.065678
+	angle_pos	35.759998
+	core_radius	0.004432
+	core_radius_kpc	0.022136
+	cut_radius	8.858339
+	cut_radius_kpc	44.242046
+	v_disp		55.503435
+	mag		21.354925
+	z_lens		0.356000
+	end
+potential
+109
+	profile		81
+	x_centre	-11.218351
+	y_centre	-18.955080
+	ellipticity	0.164061
+	angle_pos	-27.719999
+	core_radius	0.004426
+	core_radius_kpc	0.022106
+	cut_radius	8.846093
+	cut_radius_kpc	44.180884
+	v_disp		55.465056
+	mag		21.357929
+	z_lens		0.356000
+	end
+potential
+110
+	profile		81
+	x_centre	-9.668997
+	y_centre	24.399720
+	ellipticity	0.152726
+	angle_pos	13.560000
+	core_radius	0.004386
+	core_radius_kpc	0.021903
+	cut_radius	8.764995
+	cut_radius_kpc	43.775851
+	v_disp		55.210230
+	mag		21.377928
+	z_lens		0.356000
+	end
+potential
+111
+	profile		81
+	x_centre	0.790749
+	y_centre	-41.203080
+	ellipticity	0.158988
+	angle_pos	-81.029999
+	core_radius	0.004344
+	core_radius_kpc	0.021698
+	cut_radius	8.682770
+	cut_radius_kpc	43.365185
+	v_disp		54.950653
+	mag		21.398395
+	z_lens		0.356000
+	end
+potential
+112
+	profile		81
+	x_centre	4.181970
+	y_centre	-28.232280
+	ellipticity	0.114452
+	angle_pos	-89.169998
+	core_radius	0.004247
+	core_radius_kpc	0.021211
+	cut_radius	8.488198
+	cut_radius_kpc	42.393415
+	v_disp		54.331470
+	mag		21.447609
+	z_lens		0.356000
+	end
+potential
+113
+	profile		81
+	x_centre	49.142165
+	y_centre	12.577320
+	ellipticity	0.045861
+	angle_pos	20.700001
+	core_radius	0.004129
+	core_radius_kpc	0.020624
+	cut_radius	8.253206
+	cut_radius_kpc	41.219773
+	v_disp		53.574122
+	mag		21.508573
+	z_lens		0.356000
+	end
+potential
+114
+	profile		81
+	x_centre	16.763239
+	y_centre	-12.817080
+	ellipticity	0.068822
+	angle_pos	-2.630000
+	core_radius	0.003908
+	core_radius_kpc	0.019520
+	cut_radius	7.811458
+	cut_radius_kpc	39.013508
+	v_disp		52.120642
+	mag		21.628026
+	z_lens		0.356000
+	end
+potential
+115
+	profile		81
+	x_centre	13.635601
+	y_centre	-23.620680
+	ellipticity	0.036077
+	angle_pos	83.129997
+	core_radius	0.003888
+	core_radius_kpc	0.019419
+	cut_radius	7.770949
+	cut_radius_kpc	38.811194
+	v_disp		51.985324
+	mag		21.639316
+	z_lens		0.356000
+	end
+potential
+116
+	profile		81
+	x_centre	-61.186624
+	y_centre	1.467720
+	ellipticity	0.200653
+	angle_pos	34.540001
+	core_radius	0.003806
+	core_radius_kpc	0.019010
+	cut_radius	7.607176
+	cut_radius_kpc	37.993246
+	v_disp		51.434611
+	mag		21.685569
+	z_lens		0.356000
+	end
+potential
+117
+	profile		81
+	x_centre	-18.508673
+	y_centre	-42.607080
+	ellipticity	0.252996
+	angle_pos	46.380001
+	core_radius	0.003712
+	core_radius_kpc	0.018539
+	cut_radius	7.418769
+	cut_radius_kpc	37.052268
+	v_disp		50.793678
+	mag		21.740027
+	z_lens		0.356000
+	end
+potential
+118
+	profile		81
+	x_centre	-44.854119
+	y_centre	39.678120
+	ellipticity	0.476250
+	angle_pos	19.480000
+	core_radius	0.003679
+	core_radius_kpc	0.018374
+	cut_radius	7.352728
+	cut_radius_kpc	36.722429
+	v_disp		50.567090
+	mag		21.759444
+	z_lens		0.356000
+	end
+potential
+119
+	profile		81
+	x_centre	41.938633
+	y_centre	-34.852680
+	ellipticity	0.169592
+	angle_pos	82.699997
+	core_radius	0.003658
+	core_radius_kpc	0.018272
+	cut_radius	7.311857
+	cut_radius_kpc	36.518304
+	v_disp		50.426353
+	mag		21.771548
+	z_lens		0.356000
+	end
+potential
+120
+	profile		81
+	x_centre	48.454278
+	y_centre	-47.179080
+	ellipticity	0.263328
+	angle_pos	-47.700001
+	core_radius	0.003624
+	core_radius_kpc	0.018102
+	cut_radius	7.243961
+	cut_radius_kpc	36.179203
+	v_disp		50.191683
+	mag		21.791806
+	z_lens		0.356000
+	end
+potential
+121
+	profile		81
+	x_centre	18.000793
+	y_centre	-54.375480
+	ellipticity	0.642014
+	angle_pos	-87.120003
+	core_radius	0.003619
+	core_radius_kpc	0.018072
+	cut_radius	7.232068
+	cut_radius_kpc	36.119805
+	v_disp		50.150464
+	mag		21.795374
+	z_lens		0.356000
+	end
+potential
+122
+	profile		81
+	x_centre	42.922248
+	y_centre	-8.407080
+	ellipticity	0.141221
+	angle_pos	83.830002
+	core_radius	0.003597
+	core_radius_kpc	0.017965
+	cut_radius	7.189182
+	cut_radius_kpc	35.905617
+	v_disp		50.001549
+	mag		21.808289
+	z_lens		0.356000
+	end
+potential
+123
+	profile		81
+	x_centre	27.579786
+	y_centre	12.728520
+	ellipticity	0.506962
+	angle_pos	-33.709999
+	core_radius	0.003461
+	core_radius_kpc	0.017286
+	cut_radius	6.917537
+	cut_radius_kpc	34.548914
+	v_disp		49.047792
+	mag		21.891929
+	z_lens		0.356000
+	end
+potential
+124
+	profile		81
+	x_centre	59.270826
+	y_centre	-32.725080
+	ellipticity	0.289368
+	angle_pos	-12.700000
+	core_radius	0.003376
+	core_radius_kpc	0.016863
+	cut_radius	6.748171
+	cut_radius_kpc	33.703034
+	v_disp		48.443639
+	mag		21.945756
+	z_lens		0.356000
+	end
+potential
+125
+	profile		81
+	x_centre	-47.856394
+	y_centre	40.776120
+	ellipticity	0.124257
+	angle_pos	-64.510002
+	core_radius	0.003295
+	core_radius_kpc	0.016458
+	cut_radius	6.586072
+	cut_radius_kpc	32.893448
+	v_disp		47.858266
+	mag		21.998554
+	z_lens		0.356000
+	end
+potential
+126
+	profile		81
+	x_centre	-30.614206
+	y_centre	57.717720
+	ellipticity	0.052137
+	angle_pos	-43.509998
+	core_radius	0.003270
+	core_radius_kpc	0.016329
+	cut_radius	6.534559
+	cut_radius_kpc	32.636171
+	v_disp		47.670736
+	mag		22.015605
+	z_lens		0.356000
+	end
+potential
+127
+	profile		81
+	x_centre	0.144649
+	y_centre	69.694920
+	ellipticity	0.089576
+	angle_pos	-82.269997
+	core_radius	0.003252
+	core_radius_kpc	0.016244
+	cut_radius	6.500319
+	cut_radius_kpc	32.465164
+	v_disp		47.545680
+	mag		22.027013
+	z_lens		0.356000
+	end
+potential
+128
+	profile		81
+	x_centre	-67.120457
+	y_centre	-7.550280
+	ellipticity	0.349272
+	angle_pos	8.180000
+	core_radius	0.003227
+	core_radius_kpc	0.016115
+	cut_radius	6.448615
+	cut_radius_kpc	32.206935
+	v_disp		47.356212
+	mag		22.044354
+	z_lens		0.356000
+	end
+potential
+129
+	profile		81
+	x_centre	-25.734705
+	y_centre	-27.130680
+	ellipticity	0.520909
+	angle_pos	46.980000
+	core_radius	0.003180
+	core_radius_kpc	0.015884
+	cut_radius	6.356500
+	cut_radius_kpc	31.746876
+	v_disp		47.016767
+	mag		22.075596
+	z_lens		0.356000
+	end
+potential
+130
+	profile		81
+	x_centre	-33.748273
+	y_centre	72.132120
+	ellipticity	0.193037
+	angle_pos	78.019997
+	core_radius	0.003163
+	core_radius_kpc	0.015798
+	cut_radius	6.321799
+	cut_radius_kpc	31.573563
+	v_disp		46.888254
+	mag		22.087483
+	z_lens		0.356000
+	end
+potential
+131
+	profile		81
+	x_centre	27.782295
+	y_centre	14.218920
+	ellipticity	0.206369
+	angle_pos	58.080002
+	core_radius	0.003144
+	core_radius_kpc	0.015703
+	cut_radius	6.283863
+	cut_radius_kpc	31.384094
+	v_disp		46.747357
+	mag		22.100553
+	z_lens		0.356000
+	end
+potential
+132
+	profile		81
+	x_centre	-22.324198
+	y_centre	55.280520
+	ellipticity	0.035658
+	angle_pos	49.639999
+	core_radius	0.003130
+	core_radius_kpc	0.015632
+	cut_radius	6.255388
+	cut_radius_kpc	31.241883
+	v_disp		46.641323
+	mag		22.110415
+	z_lens		0.356000
+	end
+potential
+133
+	profile		81
+	x_centre	45.024484
+	y_centre	-7.420680
+	ellipticity	0.741175
+	angle_pos	56.360001
+	core_radius	0.003101
+	core_radius_kpc	0.015490
+	cut_radius	6.198558
+	cut_radius_kpc	30.958050
+	v_disp		46.428971
+	mag		22.130233
+	z_lens		0.356000
+	end
+potential
+134
+	profile		81
+	x_centre	30.726711
+	y_centre	-25.694280
+	ellipticity	0.378236
+	angle_pos	-85.519997
+	core_radius	0.003054
+	core_radius_kpc	0.015254
+	cut_radius	6.104235
+	cut_radius_kpc	30.486965
+	v_disp		46.074365
+	mag		22.163530
+	z_lens		0.356000
+	end
+potential
+135
+	profile		81
+	x_centre	-6.788871
+	y_centre	-25.953480
+	ellipticity	0.078263
+	angle_pos	15.660000
+	core_radius	0.003040
+	core_radius_kpc	0.015185
+	cut_radius	6.076491
+	cut_radius_kpc	30.348400
+	v_disp		45.969540
+	mag		22.173422
+	z_lens		0.356000
+	end
+potential
+136
+	profile		81
+	x_centre	-31.951408
+	y_centre	46.816920
+	ellipticity	0.395069
+	angle_pos	-9.800000
+	core_radius	0.003011
+	core_radius_kpc	0.015040
+	cut_radius	6.018503
+	cut_radius_kpc	30.058783
+	v_disp		45.749669
+	mag		22.194244
+	z_lens		0.356000
+	end
+potential
+137
+	profile		81
+	x_centre	-16.220000
+	y_centre	27.225720
+	ellipticity	0.036685
+	angle_pos	-60.770000
+	core_radius	0.002991
+	core_radius_kpc	0.014940
+	cut_radius	5.978644
+	cut_radius_kpc	29.859711
+	v_disp		45.597923
+	mag		22.208673
+	z_lens		0.356000
+	end
+potential
+138
+	profile		81
+	x_centre	-7.987852
+	y_centre	32.557320
+	ellipticity	0.495892
+	angle_pos	-12.330000
+	core_radius	0.002980
+	core_radius_kpc	0.014883
+	cut_radius	5.955671
+	cut_radius_kpc	29.744974
+	v_disp		45.510233
+	mag		22.217033
+	z_lens		0.356000
+	end
+potential
+139
+	profile		81
+	x_centre	-31.057797
+	y_centre	-37.783080
+	ellipticity	0.093322
+	angle_pos	-73.430000
+	core_radius	0.002892
+	core_radius_kpc	0.014446
+	cut_radius	5.780738
+	cut_radius_kpc	28.871291
+	v_disp		44.836877
+	mag		22.281770
+	z_lens		0.356000
+	end
+potential
+140
+	profile		81
+	x_centre	3.863742
+	y_centre	29.014920
+	ellipticity	0.461584
+	angle_pos	-63.720001
+	core_radius	0.002858
+	core_radius_kpc	0.014275
+	cut_radius	5.712501
+	cut_radius_kpc	28.530488
+	v_disp		44.571460
+	mag		22.307555
+	z_lens		0.356000
+	end
+potential
+141
+	profile		81
+	x_centre	33.115030
+	y_centre	-40.951080
+	ellipticity	0.129824
+	angle_pos	6.390000
+	core_radius	0.000931
+	core_radius_kpc	0.004650
+	cut_radius	1.860699
+	cut_radius_kpc	9.293066
+	v_disp		25.437929
+	mag		24.743306
+	z_lens		0.356000
+	end
+cline
+	nplan		1 6.200000 
+	dmax		0.000000
+	algorithm		MARCHINGSQUARES
+	limitHigh		0.500000
+	limitLow		0.100000
+	end
+grande
+	iso	0 0 1.000000 0.000000 0.000000
+	name	best
+	profile	0 0
+	contour	0 0
+	large_dist	2.000000
+	end
+cosmology
+	model	1
+	H0	70.000000
+	omegaM	0.300000
+	omegaX	0.700000
+	omegaK	0.000000
+	wX	-1.000000
+	wa	0.000000
+	kcourb	0.000000
+	end
+field
+	xmin	-80.000000
+	xmax	80.000000
+	ymin	-80.000000
+	ymax	80.000000
+	end
+finish
+For z_s = 0.8000  DLS/DS:0.4989
+DLS:0.1804(lt) 772.65(Mpc) DOS:0.3616(lt) 1548.71(Mpc)
+DOL:0.2405(lt) 1030.17(Mpc) DOL_lum:0.4423(lt) 1894.21(Mpc)
+Mcrit:3.235063e-03 (10^12 Msol/kpc^2)
+Conversion Factor @ z = 0.356000, 1 arcsec == 4.994 kpc
+Number of Clumps: 142
+-------- Clump 1: PIEMD Kovner, truncated
+ Total mass: 2436.259878(cor) 2108.875284 (10^12 M_sol)
+ rcut:300.34(") 1500.00(kpc)
+ vdisp:1158.12(km/s) b0:58.0214
+ rc:13.71(") 68.48(kpc)
+ rt:300.34(") 1500.00(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 2: PIEMD Kovner, truncated
+ Total mass: 75.706009(cor) 68.498437 (10^12 M_sol)
+ rcut:78.68(") 392.96(kpc)
+ vdisp:398.87(km/s) b0:6.8824
+ rc:0.03(") 0.15(kpc)
+ rt:78.68(") 392.96(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 3: External shear and kappa 
+ gamma:0.1291
+ kappa:0.0000
+-------- Clump 4: PIEMD Kovner, truncated
+ Total mass: 4.514659(cor) 4.084357 (10^12 M_sol)
+ rcut:46.33(") 231.39(kpc)
+ vdisp:126.93(km/s) b0:0.6970
+ rc:0.02(") 0.12(kpc)
+ rt:46.33(") 231.39(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 5: PIEMD Kovner, truncated
+ Total mass: 4.494731(cor) 4.066329 (10^12 M_sol)
+ rcut:46.23(") 230.88(kpc)
+ vdisp:126.79(km/s) b0:0.6955
+ rc:0.02(") 0.12(kpc)
+ rt:46.23(") 230.88(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 6: PIEMD Kovner, truncated
+ Total mass: 4.010323(cor) 3.628091 (10^12 M_sol)
+ rcut:43.67(") 218.08(kpc)
+ vdisp:123.23(km/s) b0:0.6569
+ rc:0.02(") 0.11(kpc)
+ rt:43.67(") 218.08(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 7: PIEMD Kovner, truncated
+ Total mass: 3.994674(cor) 3.613933 (10^12 M_sol)
+ rcut:43.58(") 217.66(kpc)
+ vdisp:123.11(km/s) b0:0.6556
+ rc:0.02(") 0.11(kpc)
+ rt:43.58(") 217.66(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 8: PIEMD Kovner, truncated
+ Total mass: 3.511874(cor) 3.177150 (10^12 M_sol)
+ rcut:40.86(") 204.08(kpc)
+ vdisp:119.21(km/s) b0:0.6147
+ rc:0.02(") 0.10(kpc)
+ rt:40.86(") 204.08(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 9: PIEMD Kovner, truncated
+ Total mass: 3.313625(cor) 2.997796 (10^12 M_sol)
+ rcut:39.69(") 198.24(kpc)
+ vdisp:117.49(km/s) b0:0.5971
+ rc:0.02(") 0.10(kpc)
+ rt:39.69(") 198.24(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 10: PIEMD Kovner, truncated
+ Total mass: 3.255905(cor) 2.945578 (10^12 M_sol)
+ rcut:39.34(") 196.50(kpc)
+ vdisp:116.97(km/s) b0:0.5919
+ rc:0.02(") 0.10(kpc)
+ rt:39.34(") 196.50(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 11: PIEMD Kovner, truncated
+ Total mass: 2.888666(cor) 2.613341 (10^12 M_sol)
+ rcut:37.06(") 185.09(kpc)
+ vdisp:113.53(km/s) b0:0.5575
+ rc:0.02(") 0.09(kpc)
+ rt:37.06(") 185.09(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 12: PIEMD Kovner, truncated
+ Total mass: 2.864176(cor) 2.591186 (10^12 M_sol)
+ rcut:36.90(") 184.30(kpc)
+ vdisp:113.28(km/s) b0:0.5552
+ rc:0.02(") 0.09(kpc)
+ rt:36.90(") 184.30(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 13: PIEMD Kovner, truncated
+ Total mass: 2.428478(cor) 2.197015 (10^12 M_sol)
+ rcut:33.98(") 169.71(kpc)
+ vdisp:108.71(km/s) b0:0.5112
+ rc:0.02(") 0.08(kpc)
+ rt:33.98(") 169.71(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 14: PIEMD Kovner, truncated
+ Total mass: 2.285197(cor) 2.067391 (10^12 M_sol)
+ rcut:32.96(") 164.62(kpc)
+ vdisp:107.07(km/s) b0:0.4959
+ rc:0.02(") 0.08(kpc)
+ rt:32.96(") 164.62(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 15: PIEMD Kovner, truncated
+ Total mass: 2.247902(cor) 2.033650 (10^12 M_sol)
+ rcut:32.69(") 163.28(kpc)
+ vdisp:106.63(km/s) b0:0.4918
+ rc:0.02(") 0.08(kpc)
+ rt:32.69(") 163.28(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 16: PIEMD Kovner, truncated
+ Total mass: 2.088262(cor) 1.889225 (10^12 M_sol)
+ rcut:31.51(") 157.37(kpc)
+ vdisp:104.68(km/s) b0:0.4740
+ rc:0.02(") 0.08(kpc)
+ rt:31.51(") 157.37(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 17: PIEMD Kovner, truncated
+ Total mass: 1.946241(cor) 1.760740 (10^12 M_sol)
+ rcut:30.42(") 151.93(kpc)
+ vdisp:102.85(km/s) b0:0.4576
+ rc:0.02(") 0.08(kpc)
+ rt:30.42(") 151.93(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 18: PIEMD Kovner, truncated
+ Total mass: 1.832156(cor) 1.657530 (10^12 M_sol)
+ rcut:29.51(") 147.41(kpc)
+ vdisp:101.31(km/s) b0:0.4440
+ rc:0.01(") 0.07(kpc)
+ rt:29.51(") 147.41(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 19: PIEMD Kovner, truncated
+ Total mass: 1.663585(cor) 1.505025 (10^12 M_sol)
+ rcut:28.12(") 140.46(kpc)
+ vdisp:98.90(km/s) b0:0.4231
+ rc:0.01(") 0.07(kpc)
+ rt:28.12(") 140.46(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 20: PIEMD Kovner, truncated
+ Total mass: 1.640061(cor) 1.483744 (10^12 M_sol)
+ rcut:27.92(") 139.46(kpc)
+ vdisp:98.54(km/s) b0:0.4201
+ rc:0.01(") 0.07(kpc)
+ rt:27.92(") 139.46(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 21: PIEMD Kovner, truncated
+ Total mass: 1.579740(cor) 1.429172 (10^12 M_sol)
+ rcut:27.41(") 136.88(kpc)
+ vdisp:97.63(km/s) b0:0.4123
+ rc:0.01(") 0.07(kpc)
+ rt:27.41(") 136.88(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 22: PIEMD Kovner, truncated
+ Total mass: 1.522115(cor) 1.377039 (10^12 M_sol)
+ rcut:26.90(") 134.36(kpc)
+ vdisp:96.72(km/s) b0:0.4047
+ rc:0.01(") 0.07(kpc)
+ rt:26.90(") 134.36(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 23: PIEMD Kovner, truncated
+ Total mass: 1.512097(cor) 1.367976 (10^12 M_sol)
+ rcut:26.81(") 133.91(kpc)
+ vdisp:96.56(km/s) b0:0.4034
+ rc:0.01(") 0.07(kpc)
+ rt:26.81(") 133.91(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 24: PIEMD Kovner, truncated
+ Total mass: 1.473139(cor) 1.332731 (10^12 M_sol)
+ rcut:26.47(") 132.18(kpc)
+ vdisp:95.94(km/s) b0:0.3981
+ rc:0.01(") 0.07(kpc)
+ rt:26.47(") 132.18(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 25: PIEMD Kovner, truncated
+ Total mass: 1.457113(cor) 1.318233 (10^12 M_sol)
+ rcut:26.32(") 131.46(kpc)
+ vdisp:95.67(km/s) b0:0.3960
+ rc:0.01(") 0.07(kpc)
+ rt:26.32(") 131.46(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 26: PIEMD Kovner, truncated
+ Total mass: 1.430721(cor) 1.294356 (10^12 M_sol)
+ rcut:26.08(") 130.26(kpc)
+ vdisp:95.24(km/s) b0:0.3924
+ rc:0.01(") 0.07(kpc)
+ rt:26.08(") 130.26(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 27: PIEMD Kovner, truncated
+ Total mass: 1.413877(cor) 1.279118 (10^12 M_sol)
+ rcut:25.93(") 129.49(kpc)
+ vdisp:94.96(km/s) b0:0.3901
+ rc:0.01(") 0.06(kpc)
+ rt:25.93(") 129.49(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 28: PIEMD Kovner, truncated
+ Total mass: 1.409438(cor) 1.275102 (10^12 M_sol)
+ rcut:25.89(") 129.29(kpc)
+ vdisp:94.88(km/s) b0:0.3894
+ rc:0.01(") 0.06(kpc)
+ rt:25.89(") 129.29(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 29: PIEMD Kovner, truncated
+ Total mass: 1.376944(cor) 1.245704 (10^12 M_sol)
+ rcut:25.59(") 127.79(kpc)
+ vdisp:94.33(km/s) b0:0.3849
+ rc:0.01(") 0.06(kpc)
+ rt:25.59(") 127.79(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 30: PIEMD Kovner, truncated
+ Total mass: 1.302890(cor) 1.178709 (10^12 M_sol)
+ rcut:24.89(") 124.30(kpc)
+ vdisp:93.03(km/s) b0:0.3744
+ rc:0.01(") 0.06(kpc)
+ rt:24.89(") 124.30(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 31: PIEMD Kovner, truncated
+ Total mass: 1.297311(cor) 1.173662 (10^12 M_sol)
+ rcut:24.84(") 124.04(kpc)
+ vdisp:92.94(km/s) b0:0.3736
+ rc:0.01(") 0.06(kpc)
+ rt:24.84(") 124.04(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 32: PIEMD Kovner, truncated
+ Total mass: 1.249972(cor) 1.130834 (10^12 M_sol)
+ rcut:24.38(") 121.75(kpc)
+ vdisp:92.08(km/s) b0:0.3668
+ rc:0.01(") 0.06(kpc)
+ rt:24.38(") 121.75(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 33: PIEMD Kovner, truncated
+ Total mass: 1.210638(cor) 1.095249 (10^12 M_sol)
+ rcut:23.99(") 119.82(kpc)
+ vdisp:91.34(km/s) b0:0.3609
+ rc:0.01(") 0.06(kpc)
+ rt:23.99(") 119.82(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 34: PIEMD Kovner, truncated
+ Total mass: 1.122261(cor) 1.015296 (10^12 M_sol)
+ rcut:23.10(") 115.37(kpc)
+ vdisp:89.63(km/s) b0:0.3475
+ rc:0.01(") 0.06(kpc)
+ rt:23.10(") 115.37(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 35: PIEMD Kovner, truncated
+ Total mass: 1.113008(cor) 1.006925 (10^12 M_sol)
+ rcut:23.00(") 114.89(kpc)
+ vdisp:89.44(km/s) b0:0.3461
+ rc:0.01(") 0.06(kpc)
+ rt:23.00(") 114.89(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 36: PIEMD Kovner, truncated
+ Total mass: 1.112351(cor) 1.006330 (10^12 M_sol)
+ rcut:23.00(") 114.86(kpc)
+ vdisp:89.43(km/s) b0:0.3460
+ rc:0.01(") 0.06(kpc)
+ rt:23.00(") 114.86(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 37: PIEMD Kovner, truncated
+ Total mass: 0.981556(cor) 0.888002 (10^12 M_sol)
+ rcut:21.60(") 107.89(kpc)
+ vdisp:86.68(km/s) b0:0.3250
+ rc:0.01(") 0.05(kpc)
+ rt:21.60(") 107.89(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 38: PIEMD Kovner, truncated
+ Total mass: 0.949129(cor) 0.858666 (10^12 M_sol)
+ rcut:21.24(") 106.10(kpc)
+ vdisp:85.95(km/s) b0:0.3196
+ rc:0.01(") 0.05(kpc)
+ rt:21.24(") 106.10(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 39: PIEMD Kovner, truncated
+ Total mass: 0.946835(cor) 0.856591 (10^12 M_sol)
+ rcut:21.22(") 105.97(kpc)
+ vdisp:85.90(km/s) b0:0.3192
+ rc:0.01(") 0.05(kpc)
+ rt:21.22(") 105.97(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 40: PIEMD Kovner, truncated
+ Total mass: 0.931132(cor) 0.842384 (10^12 M_sol)
+ rcut:21.04(") 105.08(kpc)
+ vdisp:85.54(km/s) b0:0.3165
+ rc:0.01(") 0.05(kpc)
+ rt:21.04(") 105.08(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 41: PIEMD Kovner, truncated
+ Total mass: 0.916809(cor) 0.829426 (10^12 M_sol)
+ rcut:20.88(") 104.27(kpc)
+ vdisp:85.21(km/s) b0:0.3141
+ rc:0.01(") 0.05(kpc)
+ rt:20.88(") 104.27(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 42: PIEMD Kovner, truncated
+ Total mass: 0.905276(cor) 0.818992 (10^12 M_sol)
+ rcut:20.75(") 103.62(kpc)
+ vdisp:84.94(km/s) b0:0.3121
+ rc:0.01(") 0.05(kpc)
+ rt:20.75(") 103.62(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 43: PIEMD Kovner, truncated
+ Total mass: 0.883430(cor) 0.799228 (10^12 M_sol)
+ rcut:20.49(") 102.36(kpc)
+ vdisp:84.42(km/s) b0:0.3083
+ rc:0.01(") 0.05(kpc)
+ rt:20.49(") 102.36(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 44: PIEMD Kovner, truncated
+ Total mass: 0.876202(cor) 0.792689 (10^12 M_sol)
+ rcut:20.41(") 101.94(kpc)
+ vdisp:84.25(km/s) b0:0.3071
+ rc:0.01(") 0.05(kpc)
+ rt:20.41(") 101.94(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 45: PIEMD Kovner, truncated
+ Total mass: 0.847020(cor) 0.766289 (10^12 M_sol)
+ rcut:20.07(") 100.23(kpc)
+ vdisp:83.54(km/s) b0:0.3019
+ rc:0.01(") 0.05(kpc)
+ rt:20.07(") 100.23(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 46: PIEMD Kovner, truncated
+ Total mass: 0.842943(cor) 0.762600 (10^12 M_sol)
+ rcut:20.02(") 99.98(kpc)
+ vdisp:83.44(km/s) b0:0.3012
+ rc:0.01(") 0.05(kpc)
+ rt:20.02(") 99.98(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 47: PIEMD Kovner, truncated
+ Total mass: 0.834883(cor) 0.755309 (10^12 M_sol)
+ rcut:19.92(") 99.51(kpc)
+ vdisp:83.24(km/s) b0:0.2997
+ rc:0.01(") 0.05(kpc)
+ rt:19.92(") 99.51(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 48: PIEMD Kovner, truncated
+ Total mass: 0.826757(cor) 0.747957 (10^12 M_sol)
+ rcut:19.83(") 99.02(kpc)
+ vdisp:83.04(km/s) b0:0.2983
+ rc:0.01(") 0.05(kpc)
+ rt:19.83(") 99.02(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 49: PIEMD Kovner, truncated
+ Total mass: 0.819783(cor) 0.741648 (10^12 M_sol)
+ rcut:19.74(") 98.60(kpc)
+ vdisp:82.86(km/s) b0:0.2970
+ rc:0.01(") 0.05(kpc)
+ rt:19.74(") 98.60(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 50: PIEMD Kovner, truncated
+ Total mass: 0.807418(cor) 0.730462 (10^12 M_sol)
+ rcut:19.59(") 97.85(kpc)
+ vdisp:82.55(km/s) b0:0.2948
+ rc:0.01(") 0.05(kpc)
+ rt:19.59(") 97.85(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 51: PIEMD Kovner, truncated
+ Total mass: 0.772751(cor) 0.699099 (10^12 M_sol)
+ rcut:19.17(") 95.73(kpc)
+ vdisp:81.64(km/s) b0:0.2884
+ rc:0.01(") 0.05(kpc)
+ rt:19.17(") 95.73(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 52: PIEMD Kovner, truncated
+ Total mass: 0.713892(cor) 0.645850 (10^12 M_sol)
+ rcut:18.42(") 92.01(kpc)
+ vdisp:80.04(km/s) b0:0.2772
+ rc:0.01(") 0.05(kpc)
+ rt:18.42(") 92.01(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 53: PIEMD Kovner, truncated
+ Total mass: 0.704974(cor) 0.637781 (10^12 M_sol)
+ rcut:18.31(") 91.44(kpc)
+ vdisp:79.79(km/s) b0:0.2754
+ rc:0.01(") 0.05(kpc)
+ rt:18.31(") 91.44(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 54: PIEMD Kovner, truncated
+ Total mass: 0.677428(cor) 0.612861 (10^12 M_sol)
+ rcut:17.95(") 89.63(kpc)
+ vdisp:79.00(km/s) b0:0.2700
+ rc:0.01(") 0.04(kpc)
+ rt:17.95(") 89.63(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 55: PIEMD Kovner, truncated
+ Total mass: 0.668885(cor) 0.605133 (10^12 M_sol)
+ rcut:17.83(") 89.07(kpc)
+ vdisp:78.75(km/s) b0:0.2683
+ rc:0.01(") 0.04(kpc)
+ rt:17.83(") 89.07(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 56: PIEMD Kovner, truncated
+ Total mass: 0.664218(cor) 0.600910 (10^12 M_sol)
+ rcut:17.77(") 88.75(kpc)
+ vdisp:78.61(km/s) b0:0.2673
+ rc:0.01(") 0.04(kpc)
+ rt:17.77(") 88.75(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 57: PIEMD Kovner, truncated
+ Total mass: 0.660517(cor) 0.597562 (10^12 M_sol)
+ rcut:17.72(") 88.51(kpc)
+ vdisp:78.50(km/s) b0:0.2666
+ rc:0.01(") 0.04(kpc)
+ rt:17.72(") 88.51(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 58: PIEMD Kovner, truncated
+ Total mass: 0.617617(cor) 0.558750 (10^12 M_sol)
+ rcut:17.14(") 85.58(kpc)
+ vdisp:77.20(km/s) b0:0.2578
+ rc:0.01(") 0.04(kpc)
+ rt:17.14(") 85.58(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 59: PIEMD Kovner, truncated
+ Total mass: 0.588462(cor) 0.532374 (10^12 M_sol)
+ rcut:16.73(") 83.54(kpc)
+ vdisp:76.27(km/s) b0:0.2516
+ rc:0.01(") 0.04(kpc)
+ rt:16.73(") 83.54(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 60: PIEMD Kovner, truncated
+ Total mass: 0.542503(cor) 0.490796 (10^12 M_sol)
+ rcut:16.06(") 80.21(kpc)
+ vdisp:74.73(km/s) b0:0.2416
+ rc:0.01(") 0.04(kpc)
+ rt:16.06(") 80.21(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 61: PIEMD Kovner, truncated
+ Total mass: 0.526209(cor) 0.476055 (10^12 M_sol)
+ rcut:15.82(") 79.00(kpc)
+ vdisp:74.17(km/s) b0:0.2380
+ rc:0.01(") 0.04(kpc)
+ rt:15.82(") 79.00(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 62: PIEMD Kovner, truncated
+ Total mass: 0.524640(cor) 0.474635 (10^12 M_sol)
+ rcut:15.79(") 78.88(kpc)
+ vdisp:74.11(km/s) b0:0.2376
+ rc:0.01(") 0.04(kpc)
+ rt:15.79(") 78.88(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 63: PIEMD Kovner, truncated
+ Total mass: 0.514555(cor) 0.465512 (10^12 M_sol)
+ rcut:15.64(") 78.12(kpc)
+ vdisp:73.75(km/s) b0:0.2353
+ rc:0.01(") 0.04(kpc)
+ rt:15.64(") 78.12(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 64: PIEMD Kovner, truncated
+ Total mass: 0.509164(cor) 0.460635 (10^12 M_sol)
+ rcut:15.56(") 77.71(kpc)
+ vdisp:73.56(km/s) b0:0.2341
+ rc:0.01(") 0.04(kpc)
+ rt:15.56(") 77.71(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 65: PIEMD Kovner, truncated
+ Total mass: 0.503277(cor) 0.455308 (10^12 M_sol)
+ rcut:15.47(") 77.26(kpc)
+ vdisp:73.35(km/s) b0:0.2327
+ rc:0.01(") 0.04(kpc)
+ rt:15.47(") 77.26(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 66: PIEMD Kovner, truncated
+ Total mass: 0.497993(cor) 0.450528 (10^12 M_sol)
+ rcut:15.39(") 76.85(kpc)
+ vdisp:73.15(km/s) b0:0.2315
+ rc:0.01(") 0.04(kpc)
+ rt:15.39(") 76.85(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 67: PIEMD Kovner, truncated
+ Total mass: 0.479768(cor) 0.434040 (10^12 M_sol)
+ rcut:15.10(") 75.43(kpc)
+ vdisp:72.47(km/s) b0:0.2272
+ rc:0.01(") 0.04(kpc)
+ rt:15.10(") 75.43(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 68: PIEMD Kovner, truncated
+ Total mass: 0.478829(cor) 0.433191 (10^12 M_sol)
+ rcut:15.09(") 75.36(kpc)
+ vdisp:72.44(km/s) b0:0.2270
+ rc:0.01(") 0.04(kpc)
+ rt:15.09(") 75.36(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 69: PIEMD Kovner, truncated
+ Total mass: 0.478159(cor) 0.432584 (10^12 M_sol)
+ rcut:15.08(") 75.30(kpc)
+ vdisp:72.41(km/s) b0:0.2268
+ rc:0.01(") 0.04(kpc)
+ rt:15.08(") 75.30(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 70: PIEMD Kovner, truncated
+ Total mass: 0.436250(cor) 0.394670 (10^12 M_sol)
+ rcut:14.40(") 71.93(kpc)
+ vdisp:70.77(km/s) b0:0.2167
+ rc:0.01(") 0.04(kpc)
+ rt:14.40(") 71.93(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 71: PIEMD Kovner, truncated
+ Total mass: 0.435861(cor) 0.394318 (10^12 M_sol)
+ rcut:14.40(") 71.90(kpc)
+ vdisp:70.75(km/s) b0:0.2166
+ rc:0.01(") 0.04(kpc)
+ rt:14.40(") 71.90(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 72: PIEMD Kovner, truncated
+ Total mass: 0.421927(cor) 0.381713 (10^12 M_sol)
+ rcut:14.16(") 70.74(kpc)
+ vdisp:70.18(km/s) b0:0.2131
+ rc:0.01(") 0.04(kpc)
+ rt:14.16(") 70.74(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 73: PIEMD Kovner, truncated
+ Total mass: 0.412446(cor) 0.373135 (10^12 M_sol)
+ rcut:14.00(") 69.94(kpc)
+ vdisp:69.78(km/s) b0:0.2107
+ rc:0.01(") 0.03(kpc)
+ rt:14.00(") 69.94(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 74: PIEMD Kovner, truncated
+ Total mass: 0.408611(cor) 0.369665 (10^12 M_sol)
+ rcut:13.94(") 69.61(kpc)
+ vdisp:69.62(km/s) b0:0.2097
+ rc:0.01(") 0.03(kpc)
+ rt:13.94(") 69.61(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 75: PIEMD Kovner, truncated
+ Total mass: 0.397332(cor) 0.359462 (10^12 M_sol)
+ rcut:13.74(") 68.65(kpc)
+ vdisp:69.14(km/s) b0:0.2068
+ rc:0.01(") 0.03(kpc)
+ rt:13.74(") 68.65(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 76: PIEMD Kovner, truncated
+ Total mass: 0.392290(cor) 0.354900 (10^12 M_sol)
+ rcut:13.66(") 68.21(kpc)
+ vdisp:68.92(km/s) b0:0.2055
+ rc:0.01(") 0.03(kpc)
+ rt:13.66(") 68.21(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 77: PIEMD Kovner, truncated
+ Total mass: 0.376251(cor) 0.340389 (10^12 M_sol)
+ rcut:13.37(") 66.80(kpc)
+ vdisp:68.20(km/s) b0:0.2012
+ rc:0.01(") 0.03(kpc)
+ rt:13.37(") 66.80(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 78: PIEMD Kovner, truncated
+ Total mass: 0.372536(cor) 0.337029 (10^12 M_sol)
+ rcut:13.31(") 66.47(kpc)
+ vdisp:68.03(km/s) b0:0.2002
+ rc:0.01(") 0.03(kpc)
+ rt:13.31(") 66.47(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 79: PIEMD Kovner, truncated
+ Total mass: 0.339103(cor) 0.306782 (10^12 M_sol)
+ rcut:12.70(") 63.42(kpc)
+ vdisp:66.45(km/s) b0:0.1910
+ rc:0.01(") 0.03(kpc)
+ rt:12.70(") 63.42(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 80: PIEMD Kovner, truncated
+ Total mass: 0.335120(cor) 0.303179 (10^12 M_sol)
+ rcut:12.62(") 63.04(kpc)
+ vdisp:66.26(km/s) b0:0.1899
+ rc:0.01(") 0.03(kpc)
+ rt:12.62(") 63.04(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 81: PIEMD Kovner, truncated
+ Total mass: 0.334932(cor) 0.303009 (10^12 M_sol)
+ rcut:12.62(") 63.02(kpc)
+ vdisp:66.25(km/s) b0:0.1898
+ rc:0.01(") 0.03(kpc)
+ rt:12.62(") 63.02(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 82: PIEMD Kovner, truncated
+ Total mass: 0.320865(cor) 0.290282 (10^12 M_sol)
+ rcut:12.35(") 61.69(kpc)
+ vdisp:65.54(km/s) b0:0.1858
+ rc:0.01(") 0.03(kpc)
+ rt:12.35(") 61.69(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 83: PIEMD Kovner, truncated
+ Total mass: 0.319282(cor) 0.288851 (10^12 M_sol)
+ rcut:12.32(") 61.53(kpc)
+ vdisp:65.46(km/s) b0:0.1854
+ rc:0.01(") 0.03(kpc)
+ rt:12.32(") 61.53(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 84: PIEMD Kovner, truncated
+ Total mass: 0.308822(cor) 0.279387 (10^12 M_sol)
+ rcut:12.12(") 60.52(kpc)
+ vdisp:64.92(km/s) b0:0.1823
+ rc:0.01(") 0.03(kpc)
+ rt:12.12(") 60.52(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 85: PIEMD Kovner, truncated
+ Total mass: 0.308674(cor) 0.279254 (10^12 M_sol)
+ rcut:12.11(") 60.50(kpc)
+ vdisp:64.91(km/s) b0:0.1823
+ rc:0.01(") 0.03(kpc)
+ rt:12.11(") 60.50(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 86: PIEMD Kovner, truncated
+ Total mass: 0.305844(cor) 0.276694 (10^12 M_sol)
+ rcut:12.06(") 60.23(kpc)
+ vdisp:64.76(km/s) b0:0.1814
+ rc:0.01(") 0.03(kpc)
+ rt:12.06(") 60.23(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 87: PIEMD Kovner, truncated
+ Total mass: 0.281692(cor) 0.254843 (10^12 M_sol)
+ rcut:11.57(") 57.80(kpc)
+ vdisp:63.44(km/s) b0:0.1741
+ rc:0.01(") 0.03(kpc)
+ rt:11.57(") 57.80(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 88: PIEMD Kovner, truncated
+ Total mass: 0.277749(cor) 0.251276 (10^12 M_sol)
+ rcut:11.49(") 57.39(kpc)
+ vdisp:63.22(km/s) b0:0.1729
+ rc:0.01(") 0.03(kpc)
+ rt:11.49(") 57.39(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 89: PIEMD Kovner, truncated
+ Total mass: 0.269863(cor) 0.244142 (10^12 M_sol)
+ rcut:11.33(") 56.57(kpc)
+ vdisp:62.76(km/s) b0:0.1704
+ rc:0.01(") 0.03(kpc)
+ rt:11.33(") 56.57(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 90: PIEMD Kovner, truncated
+ Total mass: 0.257968(cor) 0.233381 (10^12 M_sol)
+ rcut:11.07(") 55.31(kpc)
+ vdisp:62.06(km/s) b0:0.1666
+ rc:0.01(") 0.03(kpc)
+ rt:11.07(") 55.31(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 91: PIEMD Kovner, truncated
+ Total mass: 0.256882(cor) 0.232398 (10^12 M_sol)
+ rcut:11.05(") 55.20(kpc)
+ vdisp:61.99(km/s) b0:0.1663
+ rc:0.01(") 0.03(kpc)
+ rt:11.05(") 55.20(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 92: PIEMD Kovner, truncated
+ Total mass: 0.255836(cor) 0.231452 (10^12 M_sol)
+ rcut:11.03(") 55.08(kpc)
+ vdisp:61.93(km/s) b0:0.1659
+ rc:0.01(") 0.03(kpc)
+ rt:11.03(") 55.08(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 93: PIEMD Kovner, truncated
+ Total mass: 0.245630(cor) 0.222219 (10^12 M_sol)
+ rcut:10.81(") 53.97(kpc)
+ vdisp:61.30(km/s) b0:0.1626
+ rc:0.01(") 0.03(kpc)
+ rt:10.81(") 53.97(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 94: PIEMD Kovner, truncated
+ Total mass: 0.242398(cor) 0.219295 (10^12 M_sol)
+ rcut:10.74(") 53.62(kpc)
+ vdisp:61.10(km/s) b0:0.1615
+ rc:0.01(") 0.03(kpc)
+ rt:10.74(") 53.62(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 95: PIEMD Kovner, truncated
+ Total mass: 0.229122(cor) 0.207284 (10^12 M_sol)
+ rcut:10.44(") 52.13(kpc)
+ vdisp:60.25(km/s) b0:0.1570
+ rc:0.01(") 0.03(kpc)
+ rt:10.44(") 52.13(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 96: PIEMD Kovner, truncated
+ Total mass: 0.219587(cor) 0.198657 (10^12 M_sol)
+ rcut:10.22(") 51.03(kpc)
+ vdisp:59.61(km/s) b0:0.1537
+ rc:0.01(") 0.03(kpc)
+ rt:10.22(") 51.03(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 97: PIEMD Kovner, truncated
+ Total mass: 0.210776(cor) 0.190687 (10^12 M_sol)
+ rcut:10.01(") 50.00(kpc)
+ vdisp:59.00(km/s) b0:0.1506
+ rc:0.01(") 0.03(kpc)
+ rt:10.01(") 50.00(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 98: PIEMD Kovner, truncated
+ Total mass: 0.209220(cor) 0.189279 (10^12 M_sol)
+ rcut:9.97(") 49.81(kpc)
+ vdisp:58.89(km/s) b0:0.1500
+ rc:0.00(") 0.02(kpc)
+ rt:9.97(") 49.81(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 99: PIEMD Kovner, truncated
+ Total mass: 0.208590(cor) 0.188709 (10^12 M_sol)
+ rcut:9.96(") 49.74(kpc)
+ vdisp:58.85(km/s) b0:0.1498
+ rc:0.00(") 0.02(kpc)
+ rt:9.96(") 49.74(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 100: PIEMD Kovner, truncated
+ Total mass: 0.206377(cor) 0.186707 (10^12 M_sol)
+ rcut:9.91(") 49.47(kpc)
+ vdisp:58.69(km/s) b0:0.1490
+ rc:0.00(") 0.02(kpc)
+ rt:9.91(") 49.47(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 101: PIEMD Kovner, truncated
+ Total mass: 0.199927(cor) 0.180871 (10^12 M_sol)
+ rcut:9.75(") 48.69(kpc)
+ vdisp:58.23(km/s) b0:0.1467
+ rc:0.00(") 0.02(kpc)
+ rt:9.75(") 48.69(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 102: PIEMD Kovner, truncated
+ Total mass: 0.193208(cor) 0.174793 (10^12 M_sol)
+ rcut:9.58(") 47.87(kpc)
+ vdisp:57.73(km/s) b0:0.1442
+ rc:0.00(") 0.02(kpc)
+ rt:9.58(") 47.87(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 103: PIEMD Kovner, truncated
+ Total mass: 0.184169(cor) 0.166616 (10^12 M_sol)
+ rcut:9.36(") 46.73(kpc)
+ vdisp:57.05(km/s) b0:0.1408
+ rc:0.00(") 0.02(kpc)
+ rt:9.36(") 46.73(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 104: PIEMD Kovner, truncated
+ Total mass: 0.181554(cor) 0.164250 (10^12 M_sol)
+ rcut:9.29(") 46.40(kpc)
+ vdisp:56.84(km/s) b0:0.1398
+ rc:0.00(") 0.02(kpc)
+ rt:9.29(") 46.40(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 105: PIEMD Kovner, truncated
+ Total mass: 0.180763(cor) 0.163534 (10^12 M_sol)
+ rcut:9.27(") 46.30(kpc)
+ vdisp:56.78(km/s) b0:0.1395
+ rc:0.00(") 0.02(kpc)
+ rt:9.27(") 46.30(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 106: PIEMD Kovner, truncated
+ Total mass: 0.176016(cor) 0.159239 (10^12 M_sol)
+ rcut:9.15(") 45.69(kpc)
+ vdisp:56.40(km/s) b0:0.1376
+ rc:0.00(") 0.02(kpc)
+ rt:9.15(") 45.69(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 107: PIEMD Kovner, truncated
+ Total mass: 0.174286(cor) 0.157674 (10^12 M_sol)
+ rcut:9.10(") 45.46(kpc)
+ vdisp:56.26(km/s) b0:0.1369
+ rc:0.00(") 0.02(kpc)
+ rt:9.10(") 45.46(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 108: PIEMD Kovner, truncated
+ Total mass: 0.170826(cor) 0.154544 (10^12 M_sol)
+ rcut:9.01(") 45.01(kpc)
+ vdisp:55.98(km/s) b0:0.1356
+ rc:0.00(") 0.02(kpc)
+ rt:9.01(") 45.01(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 109: PIEMD Kovner, truncated
+ Total mass: 0.165046(cor) 0.149315 (10^12 M_sol)
+ rcut:8.86(") 44.24(kpc)
+ vdisp:55.50(km/s) b0:0.1333
+ rc:0.00(") 0.02(kpc)
+ rt:8.86(") 44.24(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 110: PIEMD Kovner, truncated
+ Total mass: 0.164590(cor) 0.148902 (10^12 M_sol)
+ rcut:8.85(") 44.18(kpc)
+ vdisp:55.47(km/s) b0:0.1331
+ rc:0.00(") 0.02(kpc)
+ rt:8.85(") 44.18(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 111: PIEMD Kovner, truncated
+ Total mass: 0.161586(cor) 0.146185 (10^12 M_sol)
+ rcut:8.76(") 43.78(kpc)
+ vdisp:55.21(km/s) b0:0.1319
+ rc:0.00(") 0.02(kpc)
+ rt:8.76(") 43.78(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 112: PIEMD Kovner, truncated
+ Total mass: 0.158568(cor) 0.143455 (10^12 M_sol)
+ rcut:8.68(") 43.37(kpc)
+ vdisp:54.95(km/s) b0:0.1306
+ rc:0.00(") 0.02(kpc)
+ rt:8.68(") 43.37(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 113: PIEMD Kovner, truncated
+ Total mass: 0.151541(cor) 0.137097 (10^12 M_sol)
+ rcut:8.49(") 42.39(kpc)
+ vdisp:54.33(km/s) b0:0.1277
+ rc:0.00(") 0.02(kpc)
+ rt:8.49(") 42.39(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 114: PIEMD Kovner, truncated
+ Total mass: 0.143266(cor) 0.129611 (10^12 M_sol)
+ rcut:8.25(") 41.22(kpc)
+ vdisp:53.57(km/s) b0:0.1242
+ rc:0.00(") 0.02(kpc)
+ rt:8.25(") 41.22(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 115: PIEMD Kovner, truncated
+ Total mass: 0.128340(cor) 0.116108 (10^12 M_sol)
+ rcut:7.81(") 39.01(kpc)
+ vdisp:52.12(km/s) b0:0.1175
+ rc:0.00(") 0.02(kpc)
+ rt:7.81(") 39.01(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 116: PIEMD Kovner, truncated
+ Total mass: 0.127013(cor) 0.114907 (10^12 M_sol)
+ rcut:7.77(") 38.81(kpc)
+ vdisp:51.99(km/s) b0:0.1169
+ rc:0.00(") 0.02(kpc)
+ rt:7.77(") 38.81(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 117: PIEMD Kovner, truncated
+ Total mass: 0.121716(cor) 0.110115 (10^12 M_sol)
+ rcut:7.61(") 37.99(kpc)
+ vdisp:51.43(km/s) b0:0.1144
+ rc:0.00(") 0.02(kpc)
+ rt:7.61(") 37.99(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 118: PIEMD Kovner, truncated
+ Total mass: 0.115761(cor) 0.104728 (10^12 M_sol)
+ rcut:7.42(") 37.05(kpc)
+ vdisp:50.79(km/s) b0:0.1116
+ rc:0.00(") 0.02(kpc)
+ rt:7.42(") 37.05(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 119: PIEMD Kovner, truncated
+ Total mass: 0.113709(cor) 0.102871 (10^12 M_sol)
+ rcut:7.35(") 36.72(kpc)
+ vdisp:50.57(km/s) b0:0.1106
+ rc:0.00(") 0.02(kpc)
+ rt:7.35(") 36.72(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 120: PIEMD Kovner, truncated
+ Total mass: 0.112449(cor) 0.101731 (10^12 M_sol)
+ rcut:7.31(") 36.52(kpc)
+ vdisp:50.43(km/s) b0:0.1100
+ rc:0.00(") 0.02(kpc)
+ rt:7.31(") 36.52(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 121: PIEMD Kovner, truncated
+ Total mass: 0.110370(cor) 0.099850 (10^12 M_sol)
+ rcut:7.24(") 36.18(kpc)
+ vdisp:50.19(km/s) b0:0.1090
+ rc:0.00(") 0.02(kpc)
+ rt:7.24(") 36.18(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 122: PIEMD Kovner, truncated
+ Total mass: 0.110008(cor) 0.099523 (10^12 M_sol)
+ rcut:7.23(") 36.12(kpc)
+ vdisp:50.15(km/s) b0:0.1088
+ rc:0.00(") 0.02(kpc)
+ rt:7.23(") 36.12(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 123: PIEMD Kovner, truncated
+ Total mass: 0.108707(cor) 0.098346 (10^12 M_sol)
+ rcut:7.19(") 35.91(kpc)
+ vdisp:50.00(km/s) b0:0.1082
+ rc:0.00(") 0.02(kpc)
+ rt:7.19(") 35.91(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 124: PIEMD Kovner, truncated
+ Total mass: 0.100647(cor) 0.091054 (10^12 M_sol)
+ rcut:6.92(") 34.55(kpc)
+ vdisp:49.05(km/s) b0:0.1041
+ rc:0.00(") 0.02(kpc)
+ rt:6.92(") 34.55(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 125: PIEMD Kovner, truncated
+ Total mass: 0.095779(cor) 0.086650 (10^12 M_sol)
+ rcut:6.75(") 33.70(kpc)
+ vdisp:48.44(km/s) b0:0.1015
+ rc:0.00(") 0.02(kpc)
+ rt:6.75(") 33.70(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 126: PIEMD Kovner, truncated
+ Total mass: 0.091233(cor) 0.082537 (10^12 M_sol)
+ rcut:6.59(") 32.89(kpc)
+ vdisp:47.86(km/s) b0:0.0991
+ rc:0.00(") 0.02(kpc)
+ rt:6.59(") 32.89(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 127: PIEMD Kovner, truncated
+ Total mass: 0.089811(cor) 0.081251 (10^12 M_sol)
+ rcut:6.53(") 32.64(kpc)
+ vdisp:47.67(km/s) b0:0.0983
+ rc:0.00(") 0.02(kpc)
+ rt:6.53(") 32.64(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 128: PIEMD Kovner, truncated
+ Total mass: 0.088873(cor) 0.080402 (10^12 M_sol)
+ rcut:6.50(") 32.47(kpc)
+ vdisp:47.55(km/s) b0:0.0978
+ rc:0.00(") 0.02(kpc)
+ rt:6.50(") 32.47(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 129: PIEMD Kovner, truncated
+ Total mass: 0.087465(cor) 0.079128 (10^12 M_sol)
+ rcut:6.45(") 32.21(kpc)
+ vdisp:47.36(km/s) b0:0.0970
+ rc:0.00(") 0.02(kpc)
+ rt:6.45(") 32.21(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 130: PIEMD Kovner, truncated
+ Total mass: 0.084984(cor) 0.076884 (10^12 M_sol)
+ rcut:6.36(") 31.75(kpc)
+ vdisp:47.02(km/s) b0:0.0956
+ rc:0.00(") 0.02(kpc)
+ rt:6.36(") 31.75(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 131: PIEMD Kovner, truncated
+ Total mass: 0.084058(cor) 0.076047 (10^12 M_sol)
+ rcut:6.32(") 31.57(kpc)
+ vdisp:46.89(km/s) b0:0.0951
+ rc:0.00(") 0.02(kpc)
+ rt:6.32(") 31.57(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 132: PIEMD Kovner, truncated
+ Total mass: 0.083052(cor) 0.075137 (10^12 M_sol)
+ rcut:6.28(") 31.38(kpc)
+ vdisp:46.75(km/s) b0:0.0945
+ rc:0.00(") 0.02(kpc)
+ rt:6.28(") 31.38(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 133: PIEMD Kovner, truncated
+ Total mass: 0.082301(cor) 0.074457 (10^12 M_sol)
+ rcut:6.26(") 31.24(kpc)
+ vdisp:46.64(km/s) b0:0.0941
+ rc:0.00(") 0.02(kpc)
+ rt:6.26(") 31.24(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 134: PIEMD Kovner, truncated
+ Total mass: 0.080813(cor) 0.073110 (10^12 M_sol)
+ rcut:6.20(") 30.96(kpc)
+ vdisp:46.43(km/s) b0:0.0933
+ rc:0.00(") 0.02(kpc)
+ rt:6.20(") 30.96(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 135: PIEMD Kovner, truncated
+ Total mass: 0.078372(cor) 0.070902 (10^12 M_sol)
+ rcut:6.10(") 30.49(kpc)
+ vdisp:46.07(km/s) b0:0.0918
+ rc:0.00(") 0.02(kpc)
+ rt:6.10(") 30.49(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 136: PIEMD Kovner, truncated
+ Total mass: 0.077661(cor) 0.070259 (10^12 M_sol)
+ rcut:6.08(") 30.35(kpc)
+ vdisp:45.97(km/s) b0:0.0914
+ rc:0.00(") 0.02(kpc)
+ rt:6.08(") 30.35(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 137: PIEMD Kovner, truncated
+ Total mass: 0.076186(cor) 0.068925 (10^12 M_sol)
+ rcut:6.02(") 30.06(kpc)
+ vdisp:45.75(km/s) b0:0.0905
+ rc:0.00(") 0.02(kpc)
+ rt:6.02(") 30.06(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 138: PIEMD Kovner, truncated
+ Total mass: 0.075180(cor) 0.068015 (10^12 M_sol)
+ rcut:5.98(") 29.86(kpc)
+ vdisp:45.60(km/s) b0:0.0899
+ rc:0.00(") 0.01(kpc)
+ rt:5.98(") 29.86(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 139: PIEMD Kovner, truncated
+ Total mass: 0.074604(cor) 0.067493 (10^12 M_sol)
+ rcut:5.96(") 29.74(kpc)
+ vdisp:45.51(km/s) b0:0.0896
+ rc:0.00(") 0.01(kpc)
+ rt:5.96(") 29.74(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 140: PIEMD Kovner, truncated
+ Total mass: 0.070285(cor) 0.063586 (10^12 M_sol)
+ rcut:5.78(") 28.87(kpc)
+ vdisp:44.84(km/s) b0:0.0870
+ rc:0.00(") 0.01(kpc)
+ rt:5.78(") 28.87(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 141: PIEMD Kovner, truncated
+ Total mass: 0.068636(cor) 0.062094 (10^12 M_sol)
+ rcut:5.71(") 28.53(kpc)
+ vdisp:44.57(km/s) b0:0.0859
+ rc:0.00(") 0.01(kpc)
+ rt:5.71(") 28.53(kpc)
+ r_ct:0.0000 r_cr:0.0000
+-------- Clump 142: PIEMD Kovner, truncated
+ Total mass: 0.007282(cor) 0.006588 (10^12 M_sol)
+ rcut:1.86(") 9.29(kpc)
+ vdisp:25.44(km/s) b0:0.0280
+ rc:0.00(") 0.00(kpc)
+ rt:1.86(") 9.29(kpc)
+ r_ct:0.0000 r_cr:0.0000
